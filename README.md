@@ -31,7 +31,7 @@ npm run serve
 
 # License
 
-License is MIT except for a few exceptions. 
+MIT.
 
 [github-ci-image]: https://github.com/XCPCIO/XCPCIO/workflows/build/badge.svg?branch=master&event=push
 [github-ci-link]: https://github.com/XCPCIO/XCPCIO/actions?query=workflow%3Abuild+branch%3Amaster
