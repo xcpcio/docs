@@ -15,6 +15,8 @@ site/
 # gulp build
 docs/theme/assets/pymdownx-extras/*
 !docs/theme/assets/pymdownx-extras/.gitkeep
+!docs/theme/assets/pymdownx-extras/manifest-css.json
+!docs/theme/assets/pymdownx-extras/manifest-js.json
 
 docs/theme/partials/*
 !docs/theme/partials/.gitkeep
