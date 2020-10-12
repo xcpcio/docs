@@ -1,7 +1,6 @@
 
 # 欢迎来到 XCPC IO!
 
-[![Build][github-ci-image]][github-ci-link]
 ![License][license-image-mit]
 
 ## 部署
@@ -32,6 +31,4 @@ npm run serve
 
 MIT.
 
-[github-ci-image]: https://github.com/XCPCIO/XCPCIO/workflows/build/badge.svg?branch=master&event=push
-[github-ci-link]: https://github.com/XCPCIO/XCPCIO/actions?query=workflow%3Abuild+branch%3Amaster
 [license-image-mit]: https://img.shields.io/badge/license-MIT-blue.svg?labelColor=333333

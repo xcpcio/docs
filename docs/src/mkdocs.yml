@@ -28,12 +28,16 @@ theme:
 nav:
   - HOME: index.md
   - INFORMATION:
-    - CCPC:
-      - '2020':
-        - Getting Started: info/ccpc/2020/index.md
+    - Getting Started: info/index.md
     - ICPC:
+      - Getting Started: info/icpc/index.md
       - '2020':
         - Getting Started: info/icpc/2020/index.md
+    - CCPC:
+      - Getting Started: info/ccpc/index.md
+      - '2020':
+        - Getting Started: info/ccpc/2020/index.md
+        - 网络赛: info/ccpc/2020/preliminary-contest.md
   - SOFTWARE:
     - Getting Started: software/index.md
     - 浏览器: 
@@ -57,7 +61,7 @@ nav:
   - CODE LIBRARY:
     - Getting Started: code-library/index.md
     - SHU Kuangbin: code-library/shu-kuangbin.md 
-  - BLOG: 
+  - ABOUT: 
     - 如何部署本项目: blog/how-to-deploy.md
     
 markdown_extensions:
