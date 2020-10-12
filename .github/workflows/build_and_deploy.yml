@@ -21,6 +21,10 @@ jobs:
         run: |
           npm install
           pip3 install -U -r requirements.txt
+          sudo apt-get install sed
+          sed -i 's/mirror_download_host: \.\//mirrorr_download_host: ${{ secrets.MIRROR_DOWNLOAD_HOST }}/' docs/src/mkdocs.yml
+          sed -i 's/upload_file_host: \.\//upload_file_host: ${{ secrets.UPLOAD_FILE_HOST }}/' docs/src/mkdocs.yml
+          sed -i 's/image_host: \/assets\//image_host: ${{ secrets.IMAGE_HOST }}/' docs/src/mkdocs.yml
           npm run build
           
       - name: Release 
