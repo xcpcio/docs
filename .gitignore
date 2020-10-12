@@ -1,0 +1,20 @@
+
+# Mac OS
+.DS_Store
+
+# Node.js
+node_modules/
+
+# Build
+site/
+
+# IDS
+
+.vscode/
+
+# gulp build
+docs/theme/assets/pymdownx-extras/*
+!docs/theme/assets/pymdownx-extras/.gitkeep
+
+docs/theme/partials/*
+!docs/theme/partials/.gitkeep

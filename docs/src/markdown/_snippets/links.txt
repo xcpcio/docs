@@ -1,0 +1,14 @@
+[ICPC]: https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B
+[CCPC]: https://baike.baidu.com/item/%E4%B8%AD%E5%9B%BD%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B/18730412?fromtitle=CCPC&fromid=19964345
+[oms-official-download-link]: https://pintia.cn/download-oms-client
+[ccpc-2020-pack-download-link]: http://ccpc.acmclub.cn/CCPC2020Pack.zip
+[python-official-download-link]: https://www.python.org/downloads/
+[jdk8-official-download-link]: https://www.oracle.com/java/technologies/javase/javase-jdk8-downloads.html
+[vscode-official-download-link]: https://code.visualstudio.com/
+[sumatrapdf-official-download-link]: https://www.sumatrapdfreader.org/download-free-pdf-viewer.html
+[intellij-idea-official-download-link]: https://www.jetbrains.com/idea/download/#section=mac
+[pycharm-official-download-link]: https://www.jetbrains.com/pycharm/download/#section=mac
+[dev-cpp-official-download-link]: https://sourceforge.net/projects/orwelldevcpp/
+[winrar-official-download-link]: http://www.winrar.com.cn/
+[eclipse-offline-official-download-link]: https://www.eclipse.org/downloads/packages/
+[mozilla-firefox-offline-official-download-link]: https://www.mozilla.org/zh-CN/firefox/all/#product-desktop-release

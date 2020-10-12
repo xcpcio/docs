@@ -1,0 +1,16 @@
+/* Inherit admonition style */
+.md-typeset {
+  details {
+    @extend .admonition;
+
+    // Title
+    > summary {
+      @extend .admonition-title;
+
+      // Disable accessibility focus
+      &:focus {
+        outline-style: none;
+      }
+    }
+  }
+}
