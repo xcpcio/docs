@@ -42,7 +42,5 @@ jobs:
           username: ${{ secrets.SSH_USERNAME }}
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
-          script: | # 执行命令（运行到服务器）cd：要确保服务器有这个目录； wget：下载上一步的release到服务器； tar：解压； 安装依赖；启动服务
-            cd /var/www/XCPCIO
-            git checkout gh-pages
-            git pull
+          script: | 
+            ${{ secrets.RUN_SCRIPT }}
