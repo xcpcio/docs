@@ -1,6 +1,7 @@
 
 # 欢迎来到 XCPC IO!
 
+[![](https://github.com/XCPCIO/XCPCIO/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/XCPCIO/XCPCIO/blob/master/.github/workflows/build_and_deploy.yml)
 ![License][license-image-mit]
 
 ## 部署
