@@ -15,7 +15,7 @@
 ??? info "某热心网友提供的参赛信息"
     <center>
 
-    ![ICPCID]({{ var.image_host }}images/info/icpc/icpcid.png)
+    ![ICPCID]({{ var.assets_host }}images/info/icpc/icpcid.png)
 
     </center>
 

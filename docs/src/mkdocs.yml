@@ -140,7 +140,7 @@ extra:
   var:
     mirror_download_host: ./
     upload_file_host: ./
-    image_host: /assets/
+    assets_host: /assets/
 
 extra_css:
   - assets/pymdownx-extras/extra.css

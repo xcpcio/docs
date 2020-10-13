@@ -49,7 +49,7 @@
 ??? info "软件包内容"
     <center>
 
-    ![ccpc-pack-content]({{ var.image_host }}images/software/ccpc-pack/ccpc-2020-pack-content.png)
+    ![ccpc-pack-content]({{ var.assets_host }}images/software/ccpc-pack/ccpc-2020-pack-content.png)
     
     </center>
 
