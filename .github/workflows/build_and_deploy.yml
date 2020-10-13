@@ -36,7 +36,7 @@ jobs:
           sed -i "s|image_host: \/assets\/|image_host: ${{ secrets.IMAGE_HOST }}|" docs/src/mkdocs.yml
           npm run build
           
-      - name: Release 
+      - name: Release
         uses: JamesIves/github-pages-deploy-action@3.6.2
         with:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
