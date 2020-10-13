@@ -60,7 +60,7 @@ nav:
     - CCPC竞赛软件包: software/ccpc-pack.md
   - CODE LIBRARY:
     - Getting Started: code-library/index.md
-    - SHU Kuangbin: code-library/shu-kuangbin.md 
+    - 开源的代码库列表: code-library/open-source-code-library-list.md
   - ABOUT: 
     - 如何部署本项目: blog/how-to-deploy.md
     
