@@ -7,7 +7,7 @@
   
 ## ECNU F0RE1GNERS
 
-- [Github Repo Url](https://github.com/F0RE1GNERS/template)
+- [Github Repo](https://github.com/F0RE1GNERS/template)
 - [PDF 下载地址](https://f0re1gners.github.io/template/template.pdf)
 - [PDF 镜像下载地址 最后更新:2020.10.13]({{ var.upload_file_host }}Code-Library/ECNU-F0RE1GNERS-template.pdf)
 
