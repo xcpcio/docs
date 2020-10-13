@@ -144,9 +144,9 @@ extra:
     assets_host: /assets/
 
 extra_css:
-  - assets/pymdownx-extras/extra-bcf8e1bacc.css
+  - assets/pymdownx-extras/extra.css
 extra_javascript:
-  - assets/pymdownx-extras/extra-uml-30be4556.js
+  - assets/pymdownx-extras/extra-uml.js
 
 plugins:
   - search
