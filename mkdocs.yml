@@ -60,7 +60,7 @@ nav:
     - CCPC竞赛软件包: software/ccpc-pack.md
   - CODE LIBRARY:
     - Getting Started: code-library/index.md
-    - SHU Kuangbin: code-library/shu-kuangbin.md 
+    - 开源的模版库列表: code-library/open-source-code-library-list.md
   - ABOUT: 
     - 如何部署本项目: blog/how-to-deploy.md
     
@@ -78,6 +78,7 @@ markdown_extensions:
   - markdown.extensions.abbr:
   - markdown.extensions.footnotes:
   - markdown.extensions.md_in_html:
+  - markdown.extensions.meta:
   - pymdownx.superfences:
       preserve_tabs: true
       custom_fences:
@@ -140,12 +141,12 @@ extra:
   var:
     mirror_download_host: ./
     upload_file_host: ./
-    image_host: /assets/
+    assets_host: /assets/
 
 extra_css:
-  - assets/pymdownx-extras/extra.css
+  - assets/pymdownx-extras/extra-bcf8e1bacc.css
 extra_javascript:
-  - assets/pymdownx-extras/extra-uml.js
+  - assets/pymdownx-extras/extra-uml-30be4556.js
 
 plugins:
   - search
