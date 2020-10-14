@@ -30,7 +30,7 @@
     \date{\today}
     ``` 
 - 提交源码。
-- Github Actions 会自动构建，并且会将构建产物 `template.pdf` 发布到 gh-pages 分支下。
+- GitHub Actions 会自动构建，并且会将构建产物 `template.pdf` 发布到 gh-pages 分支下。
 
 ???+ danger "开启 Actions"
     需要注意的是，如果你 fork 了一个配置了 Github Actions 的仓库，你 fork 的仓库并不会自动触发 Github Actions，需要点击 Actions 页面进行开启。
