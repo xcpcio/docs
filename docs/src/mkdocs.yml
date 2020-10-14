@@ -38,7 +38,7 @@ nav:
       - Getting Started: info/ccpc/index.md
       - '2020':
         - Getting Started: info/ccpc/2020/index.md
-        - 网络赛: info/ccpc/2020/preliminary-contest.md
+        - 网络选拔赛: info/ccpc/2020/preliminary-contest.md
   - SOFTWARE:
     - Getting Started: software/index.md
     - 浏览器: 
@@ -63,7 +63,7 @@ nav:
     - Getting Started: code-library/index.md
     - 开源的模版库列表: code-library/open-source-code-library-list.md
   - ABOUT: 
-    - 如何部署本项目: blog/how-to-deploy.md
+    - 如何部署本项目: about/how-to-deploy.md
     
 markdown_extensions:
   - markdown.extensions.toc:
