@@ -33,6 +33,7 @@ nav:
       - Getting Started: info/icpc/index.md
       - '2020':
         - Getting Started: info/icpc/2020/index.md
+        - 牛客-西北工大: info/icpc/2020/nowcoder.md
     - CCPC:
       - Getting Started: info/ccpc/index.md
       - '2020':
