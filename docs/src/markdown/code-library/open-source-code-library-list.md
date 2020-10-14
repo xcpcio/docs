@@ -30,13 +30,28 @@
     \date{\today}
     ``` 
 - 提交源码。
-- GitHub Actions 会自动构建，并且会将构建产物 `template.pdf` 发布到 gh-pages 分支下。
+- GitHub Actions 会自动构建，并且会将构建产物 `template.pdf` 推送到 gh-pages 分支下。
 
 ???+ danger "开启 Actions"
     需要注意的是，如果你 fork 了一个配置了 Github Actions 的仓库，你 fork 的仓库并不会自动触发 Github Actions，需要点击 Actions 页面进行开启。
 
     ![]({{ var.assets_host }}images/about/code-library/enable-actions.png)
 
+### 模版构建 LaTeX
+
+如果你想用 LaTeX 编写你的模版，我们参考ECNU F0RE1GNERS template wf-tex 分支下的代码，编写了 GitHub Actions workflow 文件，能够进行自动化构建。
+但是我们觉得这种方案通用性不是很高，因为如果你能够熟练使用 LaTeX 的话，那么你在本地肯定能够编译 LaTeX。如果你用了别的包，或者用了别的 font，这个 `workflow` 文件也不一定适用了。
+但是我觉得还是能够提供一定参考的，如果你想快速的构建自己的模版，不需要本地实时预览，或者不想在本地配置 LaTeX 环境，那么这个方案也是一个不错的选择。
+
+使用指北(以下教程基于 fork 我们提取出的 [repo][template-LaTeX-ECNU-F0RE1GNERS-repo], 如果你 fork 的是原仓库，可能需要改动 `main.yml`)：
+
+- fork 我们的 [repo][template-LaTeX-ECNU-F0RE1GNERS-repo]。
+- 可以在 `main.tex` 中修改封面。
+- 在 `cheatsheat.tex` 中编写一些备忘录，譬如数学公式等。
+- 可以将源码文件放在 `assets` 目录下，然后在 `contens.tex` 中进行引入。
+- 然后提交代码，就会自动编译并推送的到 `gh-pages` 分支下。
+
+==注意：同样需要开启 Actions。==
 
 ## SHU Kuangbin
 
@@ -44,3 +59,4 @@
 - [2018版 镜像下载地址]({{ var.upload_file_host }}Code-Library/kuangbin的ACM模板(2018).pdf)
 
 [template-Markdown-ECNU-F0RE1GNERS-repo]: https://github.com/XCPCIO/template-Markdown-ECNU-F0RE1GNERS 
+[template-LaTeX-ECNU-F0RE1GNERS-repo]: https://github.com/XCPCIO/template-LaTeX-ECNU-F0RE1GNERS  
