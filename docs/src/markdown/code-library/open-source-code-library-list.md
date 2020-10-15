@@ -40,7 +40,9 @@
 ### 模版构建 LaTeX
 
 如果你想用 LaTeX 编写你的模版，我们参考ECNU F0RE1GNERS template wf-tex 分支下的代码，编写了 GitHub Actions workflow 文件，能够进行自动化构建。
-但是我们觉得这种方案通用性不是很高，因为如果你能够熟练使用 LaTeX 的话，那么你在本地肯定能够编译 LaTeX。如果你用了别的包，或者用了别的 font，这个 `workflow` 文件也不一定适用了。
+
+虽然我们觉得这种方案通用性不是很高，因为如果你能够熟练使用 LaTeX 的话，那么你在本地肯定能够编译 LaTeX。如果你用了别的 package，或者别的 font，这个 `workflow` 文件也不一定适用了。
+
 但是我觉得还是能够提供一定参考的，如果你想快速的构建自己的模版，不需要本地实时预览，或者不想在本地配置 LaTeX 环境，那么这个方案也是一个不错的选择。
 
 使用指北(以下教程基于 fork 我们提取出的 [repo][template-LaTeX-ECNU-F0RE1GNERS-repo], 如果你 fork 的是原仓库，可能需要改动 `main.yml`)：
