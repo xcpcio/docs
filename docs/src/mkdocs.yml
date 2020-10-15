@@ -26,7 +26,12 @@ theme:
     - navigation.tabs
 
 nav:
-  - HOME: index.md
+  - HOME: 
+    - Getting Started: home/index.md
+    - 关于本项目: home/about.md
+    - 如何参与: home/htc.md
+    - 格式手册: home/format.md
+    - F.A.Q.: home/faq.md
   - INFORMATION:
     - Getting Started: info/index.md
     - ICPC:
@@ -61,9 +66,10 @@ nav:
     - CCPC竞赛软件包: software/ccpc-pack.md
   - CODE LIBRARY:
     - Getting Started: code-library/index.md
-    - 开源的模版库列表: code-library/open-source-code-library-list.md
-  - ABOUT: 
-    - 如何部署本项目: about/how-to-deploy.md
+    - 模版库列表: code-library/code-library-list.md
+    - 模版库构建: code-library/code-library-build.md
+  - BLOG: 
+    - 部署本项目: blog/how-to-deploy.md
     
 markdown_extensions:
   - markdown.extensions.toc:
