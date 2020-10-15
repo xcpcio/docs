@@ -27,7 +27,7 @@ theme:
 
 nav:
   - HOME: 
-    - Getting Started: home/index.md
+    - Getting Started: index.md
     - 关于本项目: home/about.md
     - 如何参与: home/htc.md
     - 格式手册: home/format.md
