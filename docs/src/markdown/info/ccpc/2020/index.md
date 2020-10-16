@@ -8,6 +8,7 @@
     - 群号：647251731
     - [邀请链接](https://jq.qq.com/?_wv=1027&k=S7Mbc8Ko)
 - [《关于CCPC2020分站赛及女生专场竞赛比赛环境要求说明》](https://ccpc.io/post/219)
+- [CCPC2020-竞赛环境准备与自测流程.pdf]({{ var.upload_file_host }}ccpc/2020/CCPC2020-竞赛环境准备与自测流程.pdf)
 
 ## 赛站信息
 
