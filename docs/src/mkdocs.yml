@@ -45,6 +45,7 @@ nav:
       - '2020':
         - Getting Started: info/ccpc/2020/index.md
         - 网络选拔赛: info/ccpc/2020/preliminary-contest.md
+        - 秦皇岛站: info/ccpc/2020/qinhuangdao.md
   - SOFTWARE:
     - Getting Started: software/index.md
     - 浏览器: 
