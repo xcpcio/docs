@@ -5,6 +5,7 @@ edit_uri: tree/master/docs/src/markdown
 site_description: Info Site of XCPC
 copyright: |
   Copyright &copy; 2020 <a href="https://github.com/XCPCIO/XCPCIO"  target="_blank" rel="noopener">XCPC IO</a>
+  #beian
 
 docs_dir: docs/src/markdown
 theme:
