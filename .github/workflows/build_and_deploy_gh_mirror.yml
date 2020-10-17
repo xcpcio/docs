@@ -31,6 +31,8 @@ jobs:
 
       - name: Install and Build
         run: |
+          npm install
+          pip3 install -U -r requirements.txt
           sed -i "s|mirror_download_host: \.\/|mirror_download_host: ${{ secrets.GHMIRROR_MIRROR_DOWNLOAD_HOST }}|" docs/src/mkdocs.yml
           sed -i "s|upload_file_host: \.\/|upload_file_host: ${{ secrets.GHMIRROR_UPLOAD_FILE_HOST }}|" docs/src/mkdocs.yml
           sed -i "s|assets_host: \/assets\/|assets_host: ${{ secrets.GHMIRROR_ASSETS_HOST }}|" docs/src/mkdocs.yml
