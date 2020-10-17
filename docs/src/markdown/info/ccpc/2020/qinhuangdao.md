@@ -1,4 +1,6 @@
-# 2020 CCPC 秦皇岛
+# 2020 CCPC 秦皇岛站 暨 WFINAL
+
+- [热身赛题面]({{ var.upload_file_host }}ccpc/2020/CCPC2020_QHD_WarmUp.pdf)
 
 ## 赛程安排
 
@@ -15,3 +17,4 @@
 - 9:00-14:00 正式比赛
 - 讲题和技术宣讲
 - 颁奖典礼
+
