@@ -1,0 +1,46 @@
+name: Build and Deploy For GH-Mirror
+on:
+  workflow_dispatch:
+  push:
+    branches:
+      - master
+  pull_request:
+    branches:
+      - master
+jobs:
+  build-and-deploy:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v2.3.1 # If you're using actions/checkout@v2 you must set persist-credentials to false in most cases for the deployment to work correctly.
+        with:
+          persist-credentials: false
+          fetch-depth: 0
+
+      - name: Set up Python 3.8
+        uses: actions/setup-python@v1
+        with:
+          python-version: 3.8
+          architecture: 'x64' # (x64 or x86)
+      
+      - name: Set up Node.js 12.x
+        uses: actions/setup-node@v1
+        with:
+          node-version: 12
+          registry-url: https://registry.npmjs.org/
+
+      - name: Install and Build
+        run: |
+          sed -i "s|mirror_download_host: \.\/|mirror_download_host: ${{ secrets.GHMIRROR_MIRROR_DOWNLOAD_HOST }}|" docs/src/mkdocs.yml
+          sed -i "s|upload_file_host: \.\/|upload_file_host: ${{ secrets.GHMIRROR_UPLOAD_FILE_HOST }}|" docs/src/mkdocs.yml
+          sed -i "s|assets_host: \/assets\/|assets_host: ${{ secrets.GHMIRROR_ASSETS_HOST }}|" docs/src/mkdocs.yml
+          sed -i "s|#beian|${{ secrets.GHMIRROR_BEIAN_ID }}|" docs/src/mkdocs.yml
+          npm run build
+
+      - name: Release
+        uses: JamesIves/github-pages-deploy-action@3.6.2
+        with:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+          BRANCH: gh-mirror # The branch the action should deploy to.
+          FOLDER: site # The folder the action should deploy.
+          CLEAN: true # Automatically remove deleted files from the deploy branch
