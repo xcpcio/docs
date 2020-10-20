@@ -73,8 +73,6 @@ nav:
     - Getting Started: code-library/index.md
     - 模版库列表: code-library/code-library-list.md
     - 模版库构建: code-library/code-library-build.md
-  - BOARD: 
-    - board: board.md
     
 markdown_extensions:
   - markdown.extensions.toc:
