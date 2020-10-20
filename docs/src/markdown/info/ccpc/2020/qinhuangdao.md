@@ -3,6 +3,7 @@
 - [热身赛题面]({{ var.upload_file_host }}ccpc/2020/CCPC2020_QHD_WarmUp.pdf)
 - [正式赛题面]({{ var.upload_file_host }}ccpc/2020/2020CCPCQHD.pdf)
 - [女生赛题面]({{ var.upload_file_host }}ccpc/2020/2020CCPCWF.pdf)
+- [如何评价2020年CCPC秦皇岛站？](https://www.zhihu.com/question/426081900)
 
 ## 赛程安排
 
