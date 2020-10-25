@@ -1,6 +1,7 @@
 # 牛客-西北工大
 
 - 赛事链接: [https://www.nowcoder.com/activity/mi2020/index#intro](https://www.nowcoder.com/activity/mi2020/index#intro)
+- [第一场网络赛题解]({{ var.upload_file_host }}icpc/2020/牛客网2020ICPC小米邀请赛网络赛第一场题解.pdf)
 
 
 ## 网络赛
