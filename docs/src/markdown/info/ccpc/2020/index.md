@@ -10,6 +10,7 @@
 - [《关于CCPC2020分站赛及女生专场竞赛比赛环境要求说明》](https://ccpc.io/post/219)
 - [CCPC2020-竞赛环境准备与自测流程.pdf]({{ var.upload_file_host }}ccpc/2020/CCPC2020-竞赛环境准备与自测流程.pdf)
 - [如何看待CCPC 2020 外卡名额分配?](https://www.zhihu.com/question/426537722)
+- [如何评价CCPC组委会以反作弊为由, 拟在2020分站赛禁止使用CLion VSCode等IDE?](https://www.zhihu.com/question/425822703)
 
 ## 赛站信息
 
