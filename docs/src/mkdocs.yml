@@ -27,19 +27,23 @@ theme:
     - navigation.tabs
 
 nav:
-  - HOME: 
-    - Getting Started: index.md
-    - 关于本项目: home/about.md
-    - 如何参与: home/htc.md
-    - 格式手册: home/format.md
-    - F.A.Q.: home/faq.md
   - INFORMATION:
-    - Getting Started: info/index.md
+    - Getting Started: index.md
     - ICPC:
       - Getting Started: info/icpc/index.md
       - '2020':
         - Getting Started: info/icpc/2020/index.md
-        - 牛客-西北工大: info/icpc/2020/nowcoder.md
+        - 牛客-小米: info/icpc/2020/nowcoder.md
+      - '2019':
+        - World Finals: info/icpc/2019/world-finals.md
+      - '2018':
+        - 青岛: info/icpc/2018/tingdao.md
+        - World Finals: info/icpc/2018/world-finals.md
+      - '2017':
+        - World Finals: info/icpc/2017/world-finals.md
+      - '2015':
+        - 北京: info/icpc/2015/beijing.md
+        - 亚洲区决赛: info/icpc/2015/ecfinal.md
     - CCPC:
       - Getting Started: info/ccpc/index.md
       - '2020':
@@ -52,6 +56,14 @@ nav:
     - 地区赛:
       - '2020':
         - 浙江省赛: info/provincial-contest/2020/zjcpc.md
+      - '2019':
+        - 浙江省赛: info/provincial-contest/2019/zjcpc.md
+        - 山东省赛: info/provincial-contest/2019/sdcpc.md
+        - 陕西省赛: info/provincial-contest/2019/sxcpc.md
+      - '2018':
+        - 浙江省赛: info/provincial-contest/2018/zjcpc.md
+      - '2017':
+        - 浙江省赛: info/provincial-contest/2017/zjcpc.md
   - SOFTWARE:
     - Getting Started: software/index.md
     - 浏览器: 
@@ -76,6 +88,11 @@ nav:
     - Getting Started: code-library/index.md
     - 模版库列表: code-library/code-library-list.md
     - 模版库构建: code-library/code-library-build.md
+  - ABOUT: 
+    - 关于本项目: about/index.md
+    - 如何参与: about/htc.md
+    - 格式手册: about/format.md
+    - F.A.Q.: about/faq.md
     
 markdown_extensions:
   - markdown.extensions.toc:
