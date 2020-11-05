@@ -14,7 +14,7 @@ theme:
   language: zh
   icon:
     repo: fontawesome/brands/github
-    logo: material/book-open-page-variant
+    # logo: material/book-open-page-variant
   favicon: assets/favicon.png
   palette:
     scheme: dracula
@@ -179,7 +179,7 @@ extra_javascript:
   - assets/pymdownx-extras/extra-uml.js
 
 plugins:
-  - search
+  - search:
   - git-revision-date-localized
   - minify:
       minify_html: true
