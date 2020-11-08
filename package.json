@@ -12,10 +12,8 @@
     "serve": "node_modules/.bin/gulp serve",
     "lint": "node_modules/.bin/gulp lint"
   },
-  "dependencies": {},
   "engines": {
-    "node": ">= 10",
-    "yarn": "YARN NO LONGER USED - use npm instead."
+    "node": ">= 10"
   },
   "devDependencies": {
     "@babel/cli": "^7.11.6",
