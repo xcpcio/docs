@@ -1,9 +1,10 @@
 # 2020 CCPC 秦皇岛站 暨 WFINAL
 
+- [如何评价2020年CCPC秦皇岛站？](https://www.zhihu.com/question/426081900)
 - [热身赛题面]({{ var.upload_file_host }}ccpc/2020/CCPC2020_QHD_WarmUp.pdf)
 - [正式赛题面]({{ var.upload_file_host }}ccpc/2020/2020CCPCQHD.pdf)
 - [女生赛题面]({{ var.upload_file_host }}ccpc/2020/2020CCPCWF.pdf)
-- [如何评价2020年CCPC秦皇岛站？](https://www.zhihu.com/question/426081900)
+- [女生赛讲题视频](https://www.bilibili.com/video/BV1ka4y1s7jk)
 
 ## 赛程安排
 

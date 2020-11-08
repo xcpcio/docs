@@ -4,3 +4,4 @@
 - [热身赛题面]({{ var.upload_file_host }}ccpc/2020/ccpc-changchun-2020-warmup.pdf)
 - [正式赛题面]({{ var.upload_file_host }}ccpc/2020/ccpc-changchun-2020-onsite.pdf)
 - [正式赛题解](https://zhuanlan.zhihu.com/p/279287505)
+- [正式赛讲题视频](https://www.bilibili.com/video/BV1uD4y1R7rk)
