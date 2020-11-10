@@ -14,7 +14,7 @@ theme:
   language: zh
   icon:
     repo: fontawesome/brands/github
-    # logo: material/book-open-page-variant
+    logo: material/library
   favicon: assets/favicon.png
   palette:
     scheme: dracula

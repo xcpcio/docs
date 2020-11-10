@@ -27,14 +27,14 @@
   <nav class="md-header-nav md-grid" aria-label="{{ lang.t('header.title') }}">
 
     <!-- Link to home -->
-    <!-- <a
+    <a
       href="{{ config.site_url | default(nav.homepage.url, true) | url }}"
       title="{{ config.site_name }}"
       class="md-header-nav__button md-logo"
       aria-label="{{ config.site_name }}"
     >
       {% include "partials/logo.html" %}
-    </a> -->
+    </a>
 
     <!-- Button to open drawer -->
     <label class="md-header-nav__button md-icon" for="__drawer">
