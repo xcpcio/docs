@@ -1,7 +1,7 @@
+# 欢迎来到 XCPC IO!
+
 <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/gh/XCPCIO/simple-calendar@1.0.2/simple-calendar.min.css">
 <script type="text/javascript" src="https://cdn.jsdelivr.net/gh/XCPCIO/simple-calendar@1.0.2/simple-calendar.min.js"></script>
-
-# 欢迎来到 XCPC IO!
 
 <div style="height:520px;">
 <div id='container' style="width:100%; height:480px; background:#fff;"></div>
