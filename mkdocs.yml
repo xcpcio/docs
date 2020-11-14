@@ -58,10 +58,12 @@ nav:
     - 地区赛:
       - '2020':
         - 浙江省赛: info/provincial-contest/2020/zjcpc.md
+        - 江西省赛: info/provincial-contest/2020/jscpc.md
       - '2019':
         - 浙江省赛: info/provincial-contest/2019/zjcpc.md
         - 山东省赛: info/provincial-contest/2019/sdcpc.md
         - 陕西省赛: info/provincial-contest/2019/sxcpc.md
+        - 江西省赛: info/provincial-contest/2019/jscpc.md
       - '2018':
         - 浙江省赛: info/provincial-contest/2018/zjcpc.md
       - '2017':
