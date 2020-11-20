@@ -6,6 +6,8 @@
 - [第二场网络赛题解]({{ var.upload_file_host }}icpc/2020/牛客网2020ICPC小米邀请赛网络赛第二场题解.pdf)
 - [晋级名单](https://ac.nowcoder.com/discuss/557804)
 - [如何评价2020 ICPC·小米邀请赛？](https://www.zhihu.com/question/427302391)
+- [如何评价 ICPC·小米邀请赛第二场？](https://www.zhihu.com/question/428253898)
+- [如何评价2020 ICPC 小米邀请赛决赛？](https://www.zhihu.com/question/431151464)
 
 ## 网络赛
 
