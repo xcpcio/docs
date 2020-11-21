@@ -8,6 +8,8 @@
 - [如何评价2020 ICPC·小米邀请赛？](https://www.zhihu.com/question/427302391)
 - [如何评价 ICPC·小米邀请赛第二场？](https://www.zhihu.com/question/428253898)
 - [如何评价2020 ICPC 小米邀请赛决赛？](https://www.zhihu.com/question/431151464)
+- [热身赛链接](https://ac.nowcoder.com/acm/contest/9327)
+- [正赛链接](https://ac.nowcoder.com/acm/contest/9328)
 
 ## 网络赛
 
