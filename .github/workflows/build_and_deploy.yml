@@ -37,7 +37,7 @@ jobs:
           sed -i "s|upload_file_host: \.\/|upload_file_host: ${{ secrets.UPLOAD_FILE_HOST }}|" docs/src/mkdocs.yml
           sed -i "s|assets_host: \/assets\/|assets_host: ${{ secrets.ASSETS_HOST }}|" docs/src/mkdocs.yml
           sed -i "s|#beian|${{ secrets.BEIAN_ID }}|" docs/src/mkdocs.yml
-          echo "${{ srcrets.ANALYTICS }}" >> docs/src/html/footer.html
+          echo "${{ secrets.ANALYTICS }}" >> docs/src/html/footer.html
           cat docs/html/footer.html
           npm run build
           
