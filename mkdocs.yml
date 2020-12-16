@@ -33,10 +33,14 @@ nav:
       - Getting Started: info/icpc/index.md
       - '2020':
         - Getting Started: info/icpc/2020/index.md
-        - 牛客-小米: info/icpc/2020/nowcoder.md
+        - 牛客-小米: info/icpc/2020/nowcoder-xiaomi.md
         - 上海: info/icpc/2020/shanghai.md 
+        - 南京: info/icpc/2020/nanjing.md
+        - 济南: info/icpc/2020/jinan.md
       - '2019':
         - World Finals: info/icpc/2019/world-finals.md
+        - Hong Kong: info/icpc/2019/hongkong.md
+        - EC Final: info/icpc/2019/ec-final.md
       - '2018':
         - 青岛: info/icpc/2018/tingdao.md
         - World Finals: info/icpc/2018/world-finals.md
@@ -55,10 +59,14 @@ nav:
         - 威海: info/ccpc/2020/weihai.md
         - 绵阳: info/ccpc/2020/mianyang.md
         - 长春: info/ccpc/2020/changchun.md
+      - '2019':
+        - 哈尔滨: info/ccpc/2019/harbin.md
+        - 总决赛: info/ccpc/2019/final.md
     - 地区赛:
       - '2020':
         - 浙江省赛: info/provincial-contest/2020/zjcpc.md
         - 江西省赛: info/provincial-contest/2020/jscpc.md
+        - 河南省赛: info/provincial-contest/2020/henancpc.md
       - '2019':
         - 浙江省赛: info/provincial-contest/2019/zjcpc.md
         - 山东省赛: info/provincial-contest/2019/sdcpc.md
