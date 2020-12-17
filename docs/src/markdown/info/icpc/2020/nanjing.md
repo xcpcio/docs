@@ -1,5 +1,6 @@
 # 2020 45th ICPC 南京站
 
+- [如何评价2020年ICPC南京赛区？](https://www.zhihu.com/question/434669683)
 - [第45届ICPC亚洲区域赛（南京）参赛手册.pdf]({{ var.upload_file_host }}icpc/2020/第45届ICPC亚洲区域赛（南京）参赛手册.pdf)
 
 ## 竞赛日程安排
