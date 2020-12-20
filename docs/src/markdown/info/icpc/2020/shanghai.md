@@ -5,6 +5,7 @@
 - [如何评价2020年ICPC上海赛区？](https://www.zhihu.com/question/434549408) 
 - [第45届ICPC亚洲区域赛（上海）参赛手册.pdf]({{ var.upload_file_host }}icpc/2020/第45届ICPC亚洲区域赛（上海）参赛手册.pdf)
 - [第45届国际大学生程序设计竞赛（ICPC）亚洲区域赛（上海）初步排名.pdf]({{ var.upload_file_host }}icpc/2020/第45届国际大学生程序设计竞赛（ICPC）亚洲区域赛（上海）初步排名.pdf)
+- [第45届国际大学生程序设计竞赛（ICPC）亚洲区域赛（上海）获奖名单.pdf]({{ var.upload_file_host }}icpc/2020/第45届国际大学生程序设计竞赛（ICPC）亚洲区域赛（上海）获奖名单.pdf)
 - [热身赛题面]({{ var.upload_file_host }}icpc/2020/2020_icpc_shanghai_warmup_problem.pdf)
 - [正式赛题面]({{ var.upload_file_host }}icpc/2020/2020_icpc_shanghai_statement.pdf)
 - [正式赛题解](https://zhuanlan.zhihu.com/p/336649300)
