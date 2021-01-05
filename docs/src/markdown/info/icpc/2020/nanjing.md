@@ -4,6 +4,7 @@
 - [第 45 届国际大学生程序设计竞赛（ICPC）亚洲区域赛（南京）（热身赛）的C题 你是几发过的？](https://www.zhihu.com/question/435589767)
 - [第45届ICPC亚洲区域赛（南京）参赛手册.pdf]({{ var.upload_file_host }}icpc/2020/第45届ICPC亚洲区域赛（南京）参赛手册.pdf)
 - [第45届ICPC亚洲区域赛（南京）-初步排名.pdf]({{ var.upload_file_host }}icpc/2020/第45届ICPC亚洲区域赛（南京）-初步排名.pdf)
+- [第45届ICPC亚洲区域赛（南京）获奖名单.pdf]({{ var.upload_file_host }}icpc/2020/第45届ICPC亚洲区域赛（南京）获奖名单.pdf)
 - [热身赛题面]({{ var.upload_file_host }}icpc/2020/2020icpc南京站热身赛.pdf)
 - [正式赛题面]({{ var.upload_file_host }}icpc/2020/2020icpc南京站正式赛题面.pdf)
 - [正式赛题解](https://zhuanlan.zhihu.com/p/338249705)
