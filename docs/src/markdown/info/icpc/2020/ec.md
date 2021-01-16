@@ -1,1 +1,1 @@
-2020 45th ICPC EC Final
+# 2020 45th ICPC EC Final
