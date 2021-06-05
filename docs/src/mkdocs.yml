@@ -114,6 +114,8 @@ nav:
     - 如何参与: about/htc.md
     - 格式手册: about/format.md
     - F.A.Q.: about/faq.md
+  - BOARD: https://board.xcpcio.com
+  - RATING: https://rating.xcpcio.com
     
 markdown_extensions:
   - markdown.extensions.toc:
