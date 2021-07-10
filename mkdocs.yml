@@ -38,8 +38,8 @@ nav:
         - 南京: info/icpc/2020/nanjing.md
         - 济南: info/icpc/2020/jinan.md
         - 昆明: info/icpc/2020/kunming.md
-        - 沈阳: info/icpc/2020/shenyang.md
         - 银川: info/icpc/2020/yinchuan.md
+        - 沈阳: info/icpc/2020/shenyang.md
         - 澳门: info/icpc/2020/macau.md
         - EC Final: info/icpc/2020/ec.md
       - '2019':
@@ -64,10 +64,13 @@ nav:
         - 威海: info/ccpc/2020/weihai.md
         - 绵阳: info/ccpc/2020/mianyang.md
         - 长春: info/ccpc/2020/changchun.md
+        - 总决赛: info/ccpc/2020/final.md
       - '2019':
         - 哈尔滨: info/ccpc/2019/harbin.md
         - 总决赛: info/ccpc/2019/final.md
     - 地区赛:
+      - '2021':
+        - 浙江省赛: info/provincial-contest/2021/zjcpc.md
       - '2020':
         - 浙江省赛: info/provincial-contest/2020/zjcpc.md
         - 江西省赛: info/provincial-contest/2020/jiangxicpc.md
@@ -111,6 +114,9 @@ nav:
     - 如何参与: about/htc.md
     - 格式手册: about/format.md
     - F.A.Q.: about/faq.md
+  - BOARD: 
+    - 数据格式: board/data-format.md
+  - RATING: https://rating.xcpcio.com
     
 markdown_extensions:
   - markdown.extensions.toc:
