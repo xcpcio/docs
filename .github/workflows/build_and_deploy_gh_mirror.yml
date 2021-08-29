@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - master
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -37,7 +38,7 @@ jobs:
           sed -i "s|upload_file_host: \.\/|upload_file_host: ${{ secrets.GHMIRROR_UPLOAD_FILE_HOST }}|" docs/src/mkdocs.yml
           sed -i "s|assets_host: \/assets\/|assets_host: ${{ secrets.GHMIRROR_ASSETS_HOST }}|" docs/src/mkdocs.yml
           sed -i "s|#beian|${{ secrets.GHMIRROR_BEIAN_ID }}|" docs/src/mkdocs.yml
-          npm run build
+          yarn build
 
       - name: Release
         uses: JamesIves/github-pages-deploy-action@3.6.2

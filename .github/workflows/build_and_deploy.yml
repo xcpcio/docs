@@ -7,6 +7,7 @@ on:
   pull_request:
     branches:
       - master
+
 jobs:
   build-and-deploy:
     runs-on: ubuntu-latest
@@ -38,7 +39,7 @@ jobs:
           sed -i "s|assets_host: \/assets\/|assets_host: ${{ secrets.ASSETS_HOST }}|" docs/src/mkdocs.yml
           sed -i "s|#beian|${{ secrets.BEIAN_ID }}|" docs/src/mkdocs.yml
           echo "${{ secrets.ANALYTICS }}" >> docs/src/html/footer.html
-          npm run build
+          yarn build
           
       - name: Release
         uses: JamesIves/github-pages-deploy-action@3.6.2
@@ -49,7 +50,7 @@ jobs:
           CLEAN: true # Automatically remove deleted files from the deploy branch
 
       - name: Deploy
-        uses: appleboy/ssh-action@master # 使用ssh链接服务器
+        uses: appleboy/ssh-action@master 
         with:
           host: ${{ secrets.SSH_HOST }}
           username: ${{ secrets.SSH_USERNAME }}
