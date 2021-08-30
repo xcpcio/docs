@@ -4,5 +4,5 @@
 - ??? danger "管理员账号"
     - Author ID: admin
     - Password: 123456
-- 题解: [CCPC-2020-网络赛-solution.pdf]({{ var.upload_file_host }}ccpc/2020/CCPC-2020-网络赛-solution.pdf)
+- [CCPC-2020-网络赛-solution.pdf]({{ var.upload_file_host }}ccpc/2020/CCPC-2020-网络赛-solution.pdf)
 - [如何评价2020ccpc网络赛？](https://www.zhihu.com/question/422026748)
