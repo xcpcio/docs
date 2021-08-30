@@ -56,6 +56,9 @@ nav:
         - 亚洲区决赛: info/icpc/2015/ecfinal.md
     - CCPC:
       - Getting Started: info/ccpc/index.md
+      - '2021':
+        - Getting Started: info/ccpc/2021/index.md
+        - 网络选拔赛: info/ccpc/2021/preliminary-contest.md 
       - '2020':
         - Getting Started: info/ccpc/2020/index.md
         - 网络选拔赛: info/ccpc/2020/preliminary-contest.md
