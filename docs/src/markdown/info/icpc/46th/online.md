@@ -5,6 +5,7 @@
 ## 第一场
 
 - 时间：2021 年 9 月 19 日 12:00-17:00
+- [如何评价2021年icpc第一场网络赛?](https://www.zhihu.com/question/487764423)
 - [题面]({{ var.upload_file_host }}icpc/46th/aec-online-i-2021.pdf)
 
 ## 第二场
