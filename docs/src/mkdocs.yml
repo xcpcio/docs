@@ -31,6 +31,8 @@ nav:
     - Getting Started: index.md
     - ICPC:
       - Getting Started: info/icpc/index.md
+      - '46th': 
+        - 网络预选赛: info/icpc/46th/online.md
       - '2020':
         - Getting Started: info/icpc/2020/index.md
         - 牛客-小米: info/icpc/2020/nowcoder-xiaomi.md
