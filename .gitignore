@@ -20,3 +20,6 @@ docs/theme/assets/pymdownx-extras/*
 
 docs/theme/partials/*
 !docs/theme/partials/.gitkeep
+
+# Python
+venv/

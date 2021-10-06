@@ -31,6 +31,9 @@ nav:
     - Getting Started: index.md
     - ICPC:
       - Getting Started: info/icpc/index.md
+      - '46th': 
+        - Getting Started: info/icpc/46th/index.md
+        - 网络预选赛: info/icpc/46th/online.md
       - '2020':
         - Getting Started: info/icpc/2020/index.md
         - 牛客-小米: info/icpc/2020/nowcoder-xiaomi.md
@@ -42,6 +45,7 @@ nav:
         - 沈阳: info/icpc/2020/shenyang.md
         - 澳门: info/icpc/2020/macau.md
         - EC Final: info/icpc/2020/ec.md
+        - World Finals: info/icpc/2020/world-finals.md
       - '2019':
         - World Finals: info/icpc/2019/world-finals.md
         - Hong Kong: info/icpc/2019/hongkong.md
