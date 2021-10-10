@@ -20,6 +20,7 @@
 
 ???+ info "比赛信息"
 	- [Statements]({{ var.upload_file_host }}ccpc/2021/2021中国大学生程序设计竞赛（CCPC）- 网络选拔赛（重赛）-题目集.pdf)
+	- [Tutorial]({{ var.upload_file_host }}ccpc/2021/2021中国大学生程序设计竞赛（CCPC）- 网络选拔赛（重赛）-题解.pdf)
 
 ???+ danger "赛况信息"
 	- [如何评价 CCPC 2021 网络赛重赛？](https://www.zhihu.com/question/491062172)
