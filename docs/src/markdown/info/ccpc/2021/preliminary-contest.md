@@ -6,8 +6,8 @@
 	- 竞赛地址: http://acm.hdu.edu.cn/contests/contest_show.php?cid=1031
 	- 出题方: 北京邮电大学
 	- 观赛账号:
-    	- Author ID: guest
-    	- Password: guest
+		- Author ID: guest
+		- Password: guest
 	- [Statements]({{ var.upload_file_host }}ccpc/2021/2021 China Collegiate Programming Contest - Online Contest.pdf)
 	- [Tutorial]({{ var.upload_file_host }}ccpc/2021/2021CCPC网络赛题解.pdf)
 
