@@ -19,6 +19,7 @@
 ## 第二次
 
 ???+ info "比赛信息"
+	- 出题方: 电子科技大学
 	- [Statements]({{ var.upload_file_host }}ccpc/2021/2021中国大学生程序设计竞赛（CCPC）- 网络选拔赛（重赛）-题目集.pdf)
 	- [Tutorial]({{ var.upload_file_host }}ccpc/2021/2021中国大学生程序设计竞赛（CCPC）- 网络选拔赛（重赛）-题解.pdf)
 
