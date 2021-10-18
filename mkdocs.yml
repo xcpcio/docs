@@ -31,13 +31,13 @@ nav:
     - Getting Started: index.md
     - ICPC:
       - Getting Started: info/icpc/index.md
-      - '46th': 
+      - '46th':
         - Getting Started: info/icpc/46th/index.md
         - 网络预选赛: info/icpc/46th/online.md
       - '2020':
         - Getting Started: info/icpc/2020/index.md
         - 牛客-小米: info/icpc/2020/nowcoder-xiaomi.md
-        - 上海: info/icpc/2020/shanghai.md 
+        - 上海: info/icpc/2020/shanghai.md
         - 南京: info/icpc/2020/nanjing.md
         - 济南: info/icpc/2020/jinan.md
         - 昆明: info/icpc/2020/kunming.md
@@ -60,21 +60,21 @@ nav:
         - 亚洲区决赛: info/icpc/2015/ecfinal.md
     - CCPC:
       - Getting Started: info/ccpc/index.md
-      - '2021':
-        - Getting Started: info/ccpc/2021/index.md
-        - 网络选拔赛: info/ccpc/2021/preliminary-contest.md 
-      - '2020':
-        - Getting Started: info/ccpc/2020/index.md
-        - 网络选拔赛: info/ccpc/2020/preliminary-contest.md
-        - 女生赛: info/ccpc/2020/wfinal.md
-        - 秦皇岛: info/ccpc/2020/qinhuangdao.md
-        - 威海: info/ccpc/2020/weihai.md
-        - 绵阳: info/ccpc/2020/mianyang.md
-        - 长春: info/ccpc/2020/changchun.md
-        - 总决赛: info/ccpc/2020/final.md
-      - '2019':
-        - 哈尔滨: info/ccpc/2019/harbin.md
-        - 总决赛: info/ccpc/2019/final.md
+      - '7th':
+        - Getting Started: info/ccpc/7th/index.md
+        - 网络选拔赛: info/ccpc/7th/preliminary-contest.md
+      - '6th':
+        - Getting Started: info/ccpc/6th/index.md
+        - 网络选拔赛: info/ccpc/6th/preliminary-contest.md
+        - 女生赛: info/ccpc/6th/wfinal.md
+        - 秦皇岛: info/ccpc/6th/qinhuangdao.md
+        - 威海: info/ccpc/6th/weihai.md
+        - 绵阳: info/ccpc/6th/mianyang.md
+        - 长春: info/ccpc/6th/changchun.md
+        - 总决赛: info/ccpc/6th/final.md
+      - '5th':
+        - 哈尔滨: info/ccpc/5th/harbin.md
+        - 总决赛: info/ccpc/5th/final.md
     - 地区赛:
       - '2021':
         - 浙江省赛: info/provincial-contest/2021/zjcpc.md
@@ -94,7 +94,7 @@ nav:
         - 浙江省赛: info/provincial-contest/2017/zjcpc.md
   - SOFTWARE:
     - Getting Started: software/index.md
-    - 浏览器: 
+    - 浏览器:
       - Google Chrome: software/browser/google-chrome.md
       - Mozilla Firefox: software/browser/mozilla-firefox.md
     - 编译器:
@@ -103,7 +103,7 @@ nav:
     - 编辑器:
       - VS Code: software/editor/vscode.md
     - 集成开发环境:
-      - Dev Cpp: software/ide/dev-cpp.md 
+      - Dev Cpp: software/ide/dev-cpp.md
       - PyCharm: software/ide/pycharm.md
       - IntelliJ IDEA: software/ide/intellij-idea.md
       - Eclipse: software/ide/eclipse.md
@@ -116,15 +116,15 @@ nav:
     - Getting Started: code-library/index.md
     - 模版库列表: code-library/code-library-list.md
     - 模版库构建: code-library/code-library-build.md
-  - ABOUT: 
+  - ABOUT:
     - 关于本项目: about/index.md
     - 如何参与: about/htc.md
     - 格式手册: about/format.md
     - F.A.Q.: about/faq.md
-  - BOARD: 
+  - BOARD:
     - 数据格式: board/data-format.md
   - RATING: https://rating.xcpcio.com
-    
+
 markdown_extensions:
   - markdown.extensions.toc:
       slugify: !!python/name:pymdownx.slugs.uslugify
