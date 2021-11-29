@@ -36,6 +36,7 @@ nav:
         - 网络预选赛: info/icpc/46th/online.md
         - 济南站: info/icpc/46th/jinan.md
         - 沈阳站: info/icpc/46th/shenyang.md
+        - 上海站: info/icpc/46th/shanghai.md
       - '2020':
         - Getting Started: info/icpc/2020/index.md
         - 牛客-小米: info/icpc/2020/nowcoder-xiaomi.md
@@ -69,6 +70,7 @@ nav:
         - 桂林站: info/ccpc/7th/guilin.md
         - 广州站: info/ccpc/7th/guangzhou.md
         - 威海站: info/ccpc/7th/weihai.md
+        - 哈尔滨站: info/ccpc/7th/harbin.md
       - '6th':
         - Getting Started: info/ccpc/6th/index.md
         - 网络选拔赛: info/ccpc/6th/preliminary-contest.md
