@@ -1,4 +1,5 @@
 name: Build and Deploy For GH-Mirror
+
 on:
   workflow_dispatch:
   push:
@@ -31,7 +32,7 @@ jobs:
 
       - name: Install and Build
         run: |
-          npm install
+          yarn
           pip3 install -U -r requirements.txt
           sed -i "s|mirror_download_host: \.\/|mirror_download_host: ${{ secrets.GHMIRROR_MIRROR_DOWNLOAD_HOST }}|" docs/src/mkdocs.yml
           sed -i "s|upload_file_host: \.\/|upload_file_host: ${{ secrets.GHMIRROR_UPLOAD_FILE_HOST }}|" docs/src/mkdocs.yml
