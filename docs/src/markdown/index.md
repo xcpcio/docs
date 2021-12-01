@@ -2,8 +2,23 @@
 
 ## 2022 字节跳动 Byte Camp 冬令营报名进行中
 
-[官网](https://programcamp.toutiao.com){ .md-button }
-[报名 :fontawesome-solid-paper-plane:](https://programcamp.toutiao.com/signupteam){ .md-button }
+[![]({{ var.assets_host }}images/news/bytecamp-2022-banner.png)](https://programcamp.toutiao.com)
+
+<style type="text/css">
+
+.center {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+</style>
+
+<center>
+
+[报名 :fontawesome-solid-paper-plane:](https://programcamp.toutiao.com/signupteam){ .md-button aligen=center}
+
+</center>
 
 字节跳动 Byte Camp 冬令营是针对大学生程序设计竞赛，面向全球高校在校生而办的国际顶级训练营，目前已经成功举办三期，多支参营队伍在第 43 届 ICPC 世界总决赛取得优异成绩！
 
