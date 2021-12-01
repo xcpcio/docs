@@ -16,14 +16,14 @@
     \title{\vspace{50mm} \huge Standard Code Library \\[20pt]}
     \author{Your TeamName \\[10pt] Your School}
     \date{\today}
-    ``` 
+    ```
 - 提交源码。
 - GitHub Actions 会自动构建，并且会将构建产物 `template.pdf` 推送到 gh-pages 分支下。
 
 ???+ danger "开启 Actions"
     需要注意的是，如果你 fork 了一个配置了 Github Actions 的仓库，你 fork 的仓库并不会自动触发 Github Actions，需要点击 Actions 页面进行开启。
 
-    ![]({{ var.assets_host }}images/about/code-library/enable-actions.png)
+    ![]({{ var.assets_host }}images/code-library/enable-actions.png)
 
 ## LaTeX-ECNU-F0RE1GNERS
 
@@ -43,5 +43,5 @@
 
 ==注意：同样需要开启 Actions。==
 
-[template-Markdown-ECNU-F0RE1GNERS-repo]: https://github.com/XCPCIO/template-Markdown-ECNU-F0RE1GNERS 
-[template-LaTeX-ECNU-F0RE1GNERS-repo]: https://github.com/XCPCIO/template-LaTeX-ECNU-F0RE1GNERS  
+[template-Markdown-ECNU-F0RE1GNERS-repo]: https://github.com/XCPCIO/template-Markdown-ECNU-F0RE1GNERS
+[template-LaTeX-ECNU-F0RE1GNERS-repo]: https://github.com/XCPCIO/template-LaTeX-ECNU-F0RE1GNERS
