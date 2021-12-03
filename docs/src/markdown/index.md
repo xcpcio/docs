@@ -17,6 +17,7 @@
 <center>
 
 [报名 :fontawesome-solid-paper-plane:](https://programcamp.toutiao.com/signupteam){ .md-button aligen=center}
+[加入 Q 群 :fontawesome-solid-paper-plane:](https://jq.qq.com/?_wv=1027&k=64KvQFVV){ .md-button aligen=center}
 
 </center>
 
