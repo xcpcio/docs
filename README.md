@@ -1,15 +1,15 @@
 
 # XCPC IO
 
-[![](https://github.com/XCPCIO/XCPCIO/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/XCPCIO/XCPCIO/blob/master/.github/workflows/build_and_deploy.yml)
+[![Workflow](https://github.com/XCPCIO/XCPCIO/workflows/Build%20and%20Deploy/badge.svg)](https://github.com/XCPCIO/XCPCIO/blob/master/.github/workflows/build_and_deploy.yml)
 [![License][license-image-mit]](https://mit-license.org/)
-
+[![Slack](https://img.shields.io/badge/slack-@xcpcio-blue.svg?logo=slack)](https://xcpcio.slack.com)
 
 ## 部署
 
 ```bash
 git clone https://github.com/XCPCIO/XCPCIO.git --depth=1
-  
+
 cd XCPCIO
 
 # install gulp
@@ -25,9 +25,7 @@ npm run build
 # serve
 # 运行一个本地服务器，访问 http://127.0.0.1:8000 可以查看效果
 npm run serve
-
 ```
-
 
 # License
 
