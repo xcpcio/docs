@@ -1,17 +1,17 @@
 # yaml-language-server: $schema=https://json-schema.org/draft-07/schema#
-name: Build and Deploy
+name: Deploy
 
 on:
   workflow_dispatch:
   push:
     branches:
       - master
-  pull_request:
-    branches:
-      - master
+
+env:
+  DEPLOY_BRANCH: deploy-pages
 
 jobs:
-  build-and-deploy:
+  deploy:
     runs-on: ubuntu-latest
     steps:
       - name: Checkout
@@ -36,22 +36,24 @@ jobs:
           mkdocs build -v
 
       - name: Deploy to gh-pages
-        if: ${{ github.event_name != 'pull_request' }}
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: site
           force_orphan: true
+          publish_branch: ${{ env.DEPLOY_BRANCH }}
           user_name: 'github-actions[bot]'
           user_email: 'github-actions[bot]@users.noreply.github.com'
           commit_message: 🚀 Deploying to gh-pages @ ${{ env.GITHUB_SHA }}
 
-      # - name: Deploy
-      #   uses: appleboy/ssh-action@master
-      #   with:
-      #     host: ${{ secrets.SSH_HOST }}
-      #     username: ${{ secrets.SSH_USERNAME }}
-      #     key: ${{ secrets.SSH_PRIVATE_KEY }}
-      #     port: ${{ secrets.SSH_PORT }}
-      #     script: |
-      #       ${{ secrets.RUN_SCRIPT }}
+      - name: Deploy
+        uses: appleboy/ssh-action@master
+        with:
+          host: ${{ secrets.SSH_HOST }}
+          username: ${{ secrets.SSH_USERNAME }}
+          key: ${{ secrets.SSH_PRIVATE_KEY }}
+          port: ${{ secrets.SSH_PORT }}
+          script: |
+            cd /var/www
+            rm -rf XCPCIO
+            git clone https://github.dup4.com/XCPCIO/XCPCIO.git -b ${{ env.DEPLOY_BRANCH }} --depth=1
