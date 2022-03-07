@@ -4,7 +4,5 @@
 - [Firefox-Setup-81.0.1.exe 离线安装包 镜像下载地址]({{ var.mirror_download_host }}Firefox-Setup-81.0.1.exe)
 
 --8<--
-
-refs.txt
-
+links.txt
 --8<--

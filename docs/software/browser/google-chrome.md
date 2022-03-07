@@ -8,7 +8,5 @@
 - [2020.10.12-chrome-x64-windows 离线安装包 镜像下载地址]({{ var.mirror_download_host }}ChromeStandaloneSetup64.exe)
 
 --8<--
-
-refs.txt
-
+links.txt
 --8<--

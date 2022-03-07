@@ -16,5 +16,5 @@
     ![ICPCID](./images/icpcid.png)
 
 --8<--
-refs.txt
+links.txt
 --8<--

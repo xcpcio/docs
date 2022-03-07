@@ -50,7 +50,5 @@
     ![ccpc-pack-content](./images/ccpc-2020-pack-content.png)
 
 --8<--
-
-refs.txt
-
+links.txt
 --8<--

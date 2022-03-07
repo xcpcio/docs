@@ -6,7 +6,5 @@
 - [python3.8.6-x64-windows 镜像下载地址]({{ var.mirror_download_host  }}python-3.8.6-amd64.exe)
 
 --8<--
-
-refs.txt
-
+links.txt
 --8<--
