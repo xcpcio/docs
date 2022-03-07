@@ -13,7 +13,7 @@
 - 可以选择 `Enable ICPCID`，然后将自己的 `ICPCID` 分享给别人，别人可以通过 `https://icpc.global/ICPCID/[Your ICPCID]` 访问你的参赛信息页面。
 
 ??? info "某热心网友提供的参赛信息"
-    ![ICPCID]({{ var.assets_host }}images/info/icpc/icpcid.png)
+    ![ICPCID](./images/icpcid.png)
 
 --8<--
 refs.txt

@@ -2,7 +2,7 @@
 
 ## 2022 字节跳动 Byte Camp 冬令营报名进行中
 
-[![]({{ var.assets_host }}images/news/bytecamp-2022-banner.png)](https://programcamp.toutiao.com)
+[![](./images/bytecamp-2022-banner.png)](https://programcamp.toutiao.com)
 
 <style type="text/css">
 

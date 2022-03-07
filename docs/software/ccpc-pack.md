@@ -47,7 +47,7 @@
     2020年10月8日
 
 ??? info "软件包内容"
-    ![ccpc-pack-content]({{ var.assets_host }}images/software/ccpc-pack/ccpc-2020-pack-content.png)
+    ![ccpc-pack-content](./images/ccpc-2020-pack-content.png)
 
 --8<--
 

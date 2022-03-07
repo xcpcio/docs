@@ -1,11 +1,9 @@
+# yaml-language-server: $schema=https://json-schema.org/draft-07/schema#
 name: Build and Deploy For GH-Mirror
 
 on:
   workflow_dispatch:
   push:
-    branches:
-      - master
-  pull_request:
     branches:
       - master
 
@@ -18,31 +16,29 @@ jobs:
         with:
           fetch-depth: 0
 
-      - name: Set up Python 3.8
+      - name: Set up Python 3
         uses: actions/setup-python@v1
         with:
-          python-version: 3.8
+          python-version: 3.9
           architecture: 'x64'
 
-      - name: Set up Node.js
-        uses: actions/setup-node@v1
-        with:
-          node-version: 14
-          registry-url: https://registry.npmjs.org/
-
       - name: Install and Build
+        env:
+          GOOGLE_ANALYTICS_KEY:
         run: |
-          yarn
-          pip3 install -U -r requirements.txt
-          sed -i "s|mirror_download_host: \.\/|mirror_download_host: ${{ secrets.GHMIRROR_MIRROR_DOWNLOAD_HOST }}|" docs/src/mkdocs.yml
-          sed -i "s|upload_file_host: \.\/|upload_file_host: ${{ secrets.GHMIRROR_UPLOAD_FILE_HOST }}|" docs/src/mkdocs.yml
-          sed -i "s|assets_host: \/assets\/|assets_host: ${{ secrets.GHMIRROR_ASSETS_HOST }}|" docs/src/mkdocs.yml
-          sed -i "s|#beian|${{ secrets.GHMIRROR_BEIAN_ID }}|" docs/src/mkdocs.yml
-          yarn build
+          pip install -r requirements.txt
+          sed -i "s|mirror_download_host: \.\/|mirror_download_host: ${{ secrets.MIRROR_DOWNLOAD_HOST }}|" mkdocs.yml
+          sed -i "s|upload_file_host: \.\/|upload_file_host: ${{ secrets.UPLOAD_FILE_HOST }}|" mkdocs.yml
+          sed -i "s|#beian|${{ secrets.BEIAN_ID }}|" mkdocs.yml
+          mkdocs build -v
 
-      - name: Release
-        uses: JamesIves/github-pages-deploy-action@4.1.5
+      - name: Deploy to gh-pages
+        uses: peaceiris/actions-gh-pages@v3
         with:
-          branch: gh-mirror
-          folder: site
-          clean: true
+          github_token: ${{ secrets.GITHUB_TOKEN }}
+          publish_dir: site
+          force_orphan: true
+          publish_branch: gh-deploy
+          user_name: 'github-actions[bot]'
+          user_email: 'github-actions[bot]@users.noreply.github.com'
+          commit_message: 🚀 Deploying to gh-pages @ ${{ env.GITHUB_SHA }}
