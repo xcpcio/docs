@@ -82,6 +82,7 @@ plugins:
   - minify:
       minify_html: true
   - mkdocs-material-extras
+  - macros
 
 markdown_extensions:
   - admonition:

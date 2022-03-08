@@ -28,8 +28,8 @@ jobs:
       - name: Install and Build
         env:
           GOOGLE_ANALYTICS_KEY: G-9TCR8GN9EM
-          MIRROR_DOWNLOAD_HOST: ${{ secrets.MIRROR_DOWNLOAD_HOST }}
-          UPLOAD_FILE_HOST: ${{ secrets.UPLOAD_FILE_HOST }}
+          MIRROR_DOWNLOAD_HOST: ${{ secrets.GHMIRROR_MIRROR_DOWNLOAD_HOST }}
+          UPLOAD_FILE_HOST: ${{ secrets.GHMIRROR_UPLOAD_FILE_HOST }}
         run: |
           pip install -r requirements.txt
           mkdocs build -v
