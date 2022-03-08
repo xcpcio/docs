@@ -70,8 +70,8 @@ extra:
     - icon: fontawesome/brands/github
       link: https://github.com/XCPCIO/XCPCIO
   var:
-    mirror_download_host: ./
-    upload_file_host: ./
+    mirror_download_host: !ENV [MIRROR_DOWNLOAD_HOST, "./"]
+    upload_file_host: !ENV [UPLOAD_FILE_HOST, "./"]
 
 plugins:
   - search:

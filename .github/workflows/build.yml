@@ -27,12 +27,11 @@ jobs:
 
       - name: Install and Build
         env:
-          GOOGLE_ANALYTICS_KEY:
+          GOOGLE_ANALYTICS_KEY: G-9TCR8GN9EM
+          MIRROR_DOWNLOAD_HOST: ${{ secrets.MIRROR_DOWNLOAD_HOST }}
+          UPLOAD_FILE_HOST: ${{ secrets.UPLOAD_FILE_HOST }}
         run: |
           pip install -r requirements.txt
-          sed -i "s|mirror_download_host: \.\/|mirror_download_host: ${{ secrets.MIRROR_DOWNLOAD_HOST }}|" mkdocs.yml
-          sed -i "s|upload_file_host: \.\/|upload_file_host: ${{ secrets.UPLOAD_FILE_HOST }}|" mkdocs.yml
-          sed -i "s|#beian|${{ secrets.BEIAN_ID }}|" mkdocs.yml
           mkdocs build -v
 
       - name: Deploy to gh-pages
