@@ -8,7 +8,7 @@
 ## Develop
 
 ```bash
-git clone https://github.com/XCPCIO/XCPCIO.git --depth=1
+git clone https://github.com/XCPCIO/XCPCIO.git -b main --depth=1
 
 cd XCPCIO
 
