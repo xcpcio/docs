@@ -61,29 +61,6 @@ theme:
     logo: material/airplane
   favicon: assets/favicon.png
 
-extra:
-  generator: false
-  analytics:
-    provider: google
-    property: !ENV GOOGLE_ANALYTICS_KEY
-  social:
-    - icon: fontawesome/brands/github
-      link: https://github.com/XCPCIO/XCPCIO
-  var:
-    mirror_download_host: !ENV [MIRROR_DOWNLOAD_HOST, "./"]
-    upload_file_host: !ENV [UPLOAD_FILE_HOST, "./"]
-
-plugins:
-  - search:
-      lang: ja
-  - git-revision-date-localized:
-      type: date
-      enable_creation_date: true
-  - minify:
-      minify_html: true
-  - mkdocs-material-extras
-  - macros
-
 markdown_extensions:
   - admonition:
   - abbr:
@@ -150,9 +127,35 @@ markdown_extensions:
       base_path: docs/_snippets
   - pymdownx.saneheaders:
 
+extra:
+  generator: false
+  analytics:
+    provider: google
+    property: !ENV GOOGLE_ANALYTICS_KEY
+  social:
+    - icon: fontawesome/brands/github
+      link: https://github.com/XCPCIO/XCPCIO
+  var:
+    mirror_download_host: !ENV [MIRROR_DOWNLOAD_HOST, "./"]
+    upload_file_host: !ENV [UPLOAD_FILE_HOST, "./"]
+
+plugins:
+  - search:
+      lang: ja
+  - git-revision-date-localized:
+      type: date
+      enable_creation_date: true
+  - minify:
+      minify_html: true
+  - mkdocs-material-extras
+  - macros
+  - redirects:
+      redirect_maps:
+        "index.md": "info/calendar.md"
+
 nav:
   - INFORMATION:
-    - News: index.md
+    - News: info/news.md
     - Calendar: info/calendar.md
     - ICPC:
       - Getting Started: info/icpc/index.md
