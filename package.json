@@ -1,0 +1,14 @@
+{
+    "private": true,
+    "scripts": {
+        "build": "bash build.sh",
+        "dev": "mkdocs serve",
+        "lint": "remark ./docs/**/*.md --quiet --frail",
+        "lint:fix": "remark ./docs/**/*.md --quiet --frail --output"
+    },
+    "devDependencies": {
+        "mkdocs-render-math-ssr": "^1.0.5",
+        "remark-cli": "^10.0.1",
+        "remark-preset-lint-mkdocs-material": "^0.6.0"
+    }
+}

@@ -151,7 +151,8 @@ plugins:
       enable_creation_date: true
   - minify:
       minify_html: true
-  - mkdocs-material-extras
+  - mkdocs-material-extras:
+      enable_mathjax: !ENV [ENABLE_MATHJAX, true]
   - macros
   - redirects:
       redirect_maps:
@@ -159,112 +160,112 @@ plugins:
 
 nav:
   - INFORMATION:
-    - News: info/news.md
-    - Calendar: info/calendar.md
-    - ICPC:
-      - Getting Started: info/icpc/index.md
-      - '46th':
-        - Getting Started: info/icpc/46th/index.md
-        - 网络预选赛: info/icpc/46th/online.md
-        - 济南站: info/icpc/46th/jinan.md
-        - 沈阳站: info/icpc/46th/shenyang.md
-        - 上海站: info/icpc/46th/shanghai.md
-        - 南京站: info/icpc/46th/nanjing.md
-      - '2020':
-        - Getting Started: info/icpc/2020/index.md
-        - 牛客-小米: info/icpc/2020/nowcoder-xiaomi.md
-        - 上海: info/icpc/2020/shanghai.md
-        - 南京: info/icpc/2020/nanjing.md
-        - 济南: info/icpc/2020/jinan.md
-        - 昆明: info/icpc/2020/kunming.md
-        - 银川: info/icpc/2020/yinchuan.md
-        - 沈阳: info/icpc/2020/shenyang.md
-        - 澳门: info/icpc/2020/macau.md
-        - EC Final: info/icpc/2020/ec.md
-        - World Finals: info/icpc/2020/world-finals.md
-      - '2019':
-        - World Finals: info/icpc/2019/world-finals.md
-        - Hong Kong: info/icpc/2019/hongkong.md
-        - EC Final: info/icpc/2019/ec-final.md
-      - '2018':
-        - 青岛: info/icpc/2018/tingdao.md
-        - World Finals: info/icpc/2018/world-finals.md
-      - '2017':
-        - World Finals: info/icpc/2017/world-finals.md
-      - '2015':
-        - 北京: info/icpc/2015/beijing.md
-        - 亚洲区决赛: info/icpc/2015/ecfinal.md
-    - CCPC:
-      - Getting Started: info/ccpc/index.md
-      - '7th':
-        - Getting Started: info/ccpc/7th/index.md
-        - 网络选拔赛: info/ccpc/7th/preliminary-contest.md
-        - 女生赛: info/ccpc/7th/girl.md
-        - 桂林站: info/ccpc/7th/guilin.md
-        - 广州站: info/ccpc/7th/guangzhou.md
-        - 威海站: info/ccpc/7th/weihai.md
-        - 哈尔滨站: info/ccpc/7th/harbin.md
-      - '6th':
-        - Getting Started: info/ccpc/6th/index.md
-        - 网络选拔赛: info/ccpc/6th/preliminary-contest.md
-        - 女生赛: info/ccpc/6th/wfinal.md
-        - 秦皇岛: info/ccpc/6th/qinhuangdao.md
-        - 威海: info/ccpc/6th/weihai.md
-        - 绵阳: info/ccpc/6th/mianyang.md
-        - 长春: info/ccpc/6th/changchun.md
-        - 总决赛: info/ccpc/6th/final.md
-      - '5th':
-        - 哈尔滨: info/ccpc/5th/harbin.md
-        - 总决赛: info/ccpc/5th/final.md
-    - Provincial Contest:
-      - '2021':
-        - 浙江省赛: info/provincial-contest/2021/zjcpc.md
-        - 江西省赛: info/provincial-contest/2021/jiangxi.md
-      - '2020':
-        - 浙江省赛: info/provincial-contest/2020/zjcpc.md
-        - 江西省赛: info/provincial-contest/2020/jiangxicpc.md
-        - 河南省赛: info/provincial-contest/2020/henancpc.md
-        - 江苏省赛: info/provincial-contest/2020/jiangsucpc.md
-      - '2019':
-        - 浙江省赛: info/provincial-contest/2019/zjcpc.md
-        - 山东省赛: info/provincial-contest/2019/sdcpc.md
-        - 陕西省赛: info/provincial-contest/2019/sxcpc.md
-        - 江西省赛: info/provincial-contest/2019/jscpc.md
-      - '2018':
-        - 浙江省赛: info/provincial-contest/2018/zjcpc.md
-      - '2017':
-        - 浙江省赛: info/provincial-contest/2017/zjcpc.md
+      - News: info/news.md
+      - Calendar: info/calendar.md
+      - ICPC:
+          - Getting Started: info/icpc/index.md
+          - "46th":
+              - Getting Started: info/icpc/46th/index.md
+              - 网络预选赛: info/icpc/46th/online.md
+              - 济南站: info/icpc/46th/jinan.md
+              - 沈阳站: info/icpc/46th/shenyang.md
+              - 上海站: info/icpc/46th/shanghai.md
+              - 南京站: info/icpc/46th/nanjing.md
+          - "2020":
+              - Getting Started: info/icpc/2020/index.md
+              - 牛客-小米: info/icpc/2020/nowcoder-xiaomi.md
+              - 上海: info/icpc/2020/shanghai.md
+              - 南京: info/icpc/2020/nanjing.md
+              - 济南: info/icpc/2020/jinan.md
+              - 昆明: info/icpc/2020/kunming.md
+              - 银川: info/icpc/2020/yinchuan.md
+              - 沈阳: info/icpc/2020/shenyang.md
+              - 澳门: info/icpc/2020/macau.md
+              - EC Final: info/icpc/2020/ec.md
+              - World Finals: info/icpc/2020/world-finals.md
+          - "2019":
+              - World Finals: info/icpc/2019/world-finals.md
+              - Hong Kong: info/icpc/2019/hongkong.md
+              - EC Final: info/icpc/2019/ec-final.md
+          - "2018":
+              - 青岛: info/icpc/2018/tingdao.md
+              - World Finals: info/icpc/2018/world-finals.md
+          - "2017":
+              - World Finals: info/icpc/2017/world-finals.md
+          - "2015":
+              - 北京: info/icpc/2015/beijing.md
+              - 亚洲区决赛: info/icpc/2015/ecfinal.md
+      - CCPC:
+          - Getting Started: info/ccpc/index.md
+          - "7th":
+              - Getting Started: info/ccpc/7th/index.md
+              - 网络选拔赛: info/ccpc/7th/preliminary-contest.md
+              - 女生赛: info/ccpc/7th/girl.md
+              - 桂林站: info/ccpc/7th/guilin.md
+              - 广州站: info/ccpc/7th/guangzhou.md
+              - 威海站: info/ccpc/7th/weihai.md
+              - 哈尔滨站: info/ccpc/7th/harbin.md
+          - "6th":
+              - Getting Started: info/ccpc/6th/index.md
+              - 网络选拔赛: info/ccpc/6th/preliminary-contest.md
+              - 女生赛: info/ccpc/6th/wfinal.md
+              - 秦皇岛: info/ccpc/6th/qinhuangdao.md
+              - 威海: info/ccpc/6th/weihai.md
+              - 绵阳: info/ccpc/6th/mianyang.md
+              - 长春: info/ccpc/6th/changchun.md
+              - 总决赛: info/ccpc/6th/final.md
+          - "5th":
+              - 哈尔滨: info/ccpc/5th/harbin.md
+              - 总决赛: info/ccpc/5th/final.md
+      - Provincial Contest:
+          - "2021":
+              - 浙江省赛: info/provincial-contest/2021/zjcpc.md
+              - 江西省赛: info/provincial-contest/2021/jiangxi.md
+          - "2020":
+              - 浙江省赛: info/provincial-contest/2020/zjcpc.md
+              - 江西省赛: info/provincial-contest/2020/jiangxicpc.md
+              - 河南省赛: info/provincial-contest/2020/henancpc.md
+              - 江苏省赛: info/provincial-contest/2020/jiangsucpc.md
+          - "2019":
+              - 浙江省赛: info/provincial-contest/2019/zjcpc.md
+              - 山东省赛: info/provincial-contest/2019/sdcpc.md
+              - 陕西省赛: info/provincial-contest/2019/sxcpc.md
+              - 江西省赛: info/provincial-contest/2019/jscpc.md
+          - "2018":
+              - 浙江省赛: info/provincial-contest/2018/zjcpc.md
+          - "2017":
+              - 浙江省赛: info/provincial-contest/2017/zjcpc.md
   - BOARD:
-    - Getting Started: board/index.md
-    - 数据格式: board/data-format.md
+      - Getting Started: board/index.md
+      - 数据格式: board/data-format.md
   - RATING:
-    - Getting Started: rating/index.md
+      - Getting Started: rating/index.md
   - CODE LIBRARY:
-    - Getting Started: code-library/index.md
-    - 模版库列表: code-library/code-library-list.md
-    - 模版库构建: code-library/code-library-build.md
+      - Getting Started: code-library/index.md
+      - 模版库列表: code-library/code-library-list.md
+      - 模版库构建: code-library/code-library-build.md
   - SOFTWARE:
-    - Getting Started: software/index.md
-    - 浏览器:
-      - Google Chrome: software/browser/google-chrome.md
-      - Mozilla Firefox: software/browser/mozilla-firefox.md
-    - 编译器:
-      - Python: software/compiler/python.md
-      - JDK8: software/compiler/jdk8.md
-    - 编辑器:
-      - VS Code: software/editor/vscode.md
-    - 集成开发环境:
-      - Dev Cpp: software/ide/dev-cpp.md
-      - PyCharm: software/ide/pycharm.md
-      - IntelliJ IDEA: software/ide/intellij-idea.md
-      - Eclipse: software/ide/eclipse.md
-    - 其它:
-      - Win RAR: software/other/winrar.md
-      - SumatraPDF: software/other/sumatrapdf.md
-    - OMS监考客户端: software/oms.md
-    - CCPC竞赛软件包: software/ccpc-pack.md
+      - Getting Started: software/index.md
+      - 浏览器:
+          - Google Chrome: software/browser/google-chrome.md
+          - Mozilla Firefox: software/browser/mozilla-firefox.md
+      - 编译器:
+          - Python: software/compiler/python.md
+          - JDK8: software/compiler/jdk8.md
+      - 编辑器:
+          - VS Code: software/editor/vscode.md
+      - 集成开发环境:
+          - Dev Cpp: software/ide/dev-cpp.md
+          - PyCharm: software/ide/pycharm.md
+          - IntelliJ IDEA: software/ide/intellij-idea.md
+          - Eclipse: software/ide/eclipse.md
+      - 其它:
+          - Win RAR: software/other/winrar.md
+          - SumatraPDF: software/other/sumatrapdf.md
+      - OMS监考客户端: software/oms.md
+      - CCPC竞赛软件包: software/ccpc-pack.md
   - ABOUT:
-    - 关于本项目: about/index.md
-    - 如何参与: about/htc.md
-    - 格式手册: about/format.md
-    - F.A.Q.: about/faq.md
+      - 关于本项目: about/index.md
+      - 如何参与: about/htc.md
+      - 格式手册: about/format.md
+      - F.A.Q.: about/faq.md
