@@ -20,19 +20,32 @@ jobs:
           fetch-depth: 0
 
       - name: Set up Python 3
-        uses: actions/setup-python@v1
+        uses: actions/setup-python@v3
         with:
           python-version: 3.9
-          architecture: 'x64'
+
+      - name: Install Python dependencies
+        run: |
+          pip install -r requirements.txt
+
+      - uses: pnpm/action-setup@v2
+        with:
+          version: latest
+
+      - name: Set up Node.js
+        uses: actions/setup-node@v2
+        with:
+          node-version: 16
+          cache: pnpm
 
       - name: Install and Build
         env:
           GOOGLE_ANALYTICS_KEY: G-9TCR8GN9EM
           MIRROR_DOWNLOAD_HOST: ${{ secrets.GHMIRROR_MIRROR_DOWNLOAD_HOST }}
           UPLOAD_FILE_HOST: ${{ secrets.GHMIRROR_UPLOAD_FILE_HOST }}
+          ENABLE_MATHJAX: false
         run: |
-          pip install -r requirements.txt
-          mkdocs build -v
+          pnpm build
 
       - name: Deploy to gh-pages
         if: ${{ github.event_name != 'pull_request' }}
@@ -41,6 +54,6 @@ jobs:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: site
           force_orphan: true
-          user_name: 'github-actions[bot]'
-          user_email: 'github-actions[bot]@users.noreply.github.com'
+          user_name: "github-actions[bot]"
+          user_email: "github-actions[bot]@users.noreply.github.com"
           commit_message: 🚀 Deploying to gh-pages @ ${{ env.GITHUB_SHA }}
