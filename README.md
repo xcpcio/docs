@@ -1,7 +1,7 @@
-
 # XCPC IO
 
 [![Build](https://github.com/XCPCIO/XCPCIO/actions/workflows/build.yml/badge.svg)](https://github.com/XCPCIO/XCPCIO/actions/workflows/build.yml)
+[![Lint](https://github.com/XCPCIO/XCPCIO/actions/workflows/lint.yml/badge.svg)](https://github.com/XCPCIO/XCPCIO/actions/workflows/lint.yml)
 [![License][license-image-mit]](https://mit-license.org/)
 [![Slack](https://img.shields.io/badge/slack-@xcpcio-blue.svg?logo=slack)](https://xcpcio.slack.com)
 
