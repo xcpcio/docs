@@ -9,6 +9,7 @@
     "devDependencies": {
         "mkdocs-render-math-ssr": "^1.0.5",
         "remark-cli": "^10.0.1",
+        "remark-lint-code-block-style": "^3.1.0",
         "remark-preset-lint-mkdocs-material": "^0.6.0"
     }
 }

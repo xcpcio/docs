@@ -5,5 +5,5 @@
 
 ???+ warning "声明"
     我们只会收集 GitHub 上的公开仓库存储的模版库, 或者在各大算法群中广为流传的(譬如 Kuangbin 的模版库)。
-    
+
     如有侵权，请告知[我们](https://github.com/XCPCIO/XCPCIO/issues)，我们立即删除对应内容。

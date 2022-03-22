@@ -1,5 +1,9 @@
 {
     "plugins": [
-        "remark-preset-lint-mkdocs-material"
+        "remark-preset-lint-mkdocs-material",
+        [
+            "remark-lint-code-block-style",
+            false
+        ]
     ]
 }
