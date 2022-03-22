@@ -1,0 +1,43 @@
+{
+    "editor.formatOnSave": true,
+    "files.associations": {
+        ".remarkrc": "json"
+    },
+    "cSpell.words": [
+        "arithmatex",
+        "autohide",
+        "betterem",
+        "ceret",
+        "escapeall",
+        "fontawesome",
+        "hardbreak",
+        "inlinehilite",
+        "linenums",
+        "magiclink",
+        "materialx",
+        "mathjax",
+        "mkdocs",
+        "nbsp",
+        "noopener",
+        "progressbar",
+        "pymdownx",
+        "Roboto",
+        "saneheaders",
+        "smartsymbols",
+        "striphtml",
+        "superfences",
+        "tasklist",
+        "twemoji",
+        "uslugify"
+    ],
+    "yaml.customTags": [
+        "!ENV scalar",
+        "!ENV sequence",
+        "tag:yaml.org,2002:python/name:materialx.emoji.to_svg",
+        "tag:yaml.org,2002:python/name:materialx.emoji.twemoji",
+        "tag:yaml.org,2002:python/name:pymdownx.superfences.fence_code_format",
+        "tag:yaml.org,2002:python/name:pymdownx.slugs.uslugify",
+        "tag:yaml.org,2002:python/name:pymdownx.arithmatex.inline_mathjax_format",
+        "tag:yaml.org,2002:python/name:pymdownx.arithmatex.fence_mathjax_format"
+    ]
+}

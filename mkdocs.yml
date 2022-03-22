@@ -1,23 +1,27 @@
 site_name: XCPCIO
 site_url: https://xcpcio.com
 site_description: Info Site of XCPC
-copyright: |
-  Copyright &copy; 2020 - Present <a href="https://github.com/XCPCIO/XCPCIO"  target="_blank" rel="noopener">XCPC IO</a>
-  #beian
 
 repo_name: XCPCIO
 repo_url: https://github.com/XCPCIO/XCPCIO
 edit_uri: tree/master/docs/markdown
+
+copyright: |
+  Copyright &copy; 2020 - Present <a href="https://github.com/XCPCIO/XCPCIO"  target="_blank" rel="noopener">XCPCIO</a>
+  #beian
 
 docs_dir: docs
 
 theme:
   name: material
   custom_dir: theme
+
   static_templates:
     - 404.html
+
   include_search_page: false
   search_index_only: true
+
   language: en
 
   features:

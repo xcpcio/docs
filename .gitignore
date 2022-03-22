@@ -1,4 +1,3 @@
-
 # Mac OS
 .DS_Store
 
@@ -7,9 +6,6 @@ node_modules/
 
 # Build
 site/
-
-# IDS
-.vscode/
 
 # Python
 venv/
