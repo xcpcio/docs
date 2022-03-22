@@ -43,5 +43,5 @@
 
 ==注意：同样需要开启 Actions。==
 
-[template-markdown-evnu-f0re1gners-repo]: https://github.com/XCPCIO/template-Markdown-ECNU-F0RE1GNERS
+[template-markdown-ecnu-f0re1gners-repo]: https://github.com/XCPCIO/template-Markdown-ECNU-F0RE1GNERS
 [template-latex-ecnu-f0re1gners-repo]: https://github.com/XCPCIO/template-LaTeX-ECNU-F0RE1GNERS
