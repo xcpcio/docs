@@ -15,11 +15,14 @@ cd XCPCIO
 # insall mkdocs-material and plugins
 pip3 install -U -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
-# build
-mkdocs build
+# install node deps
+pnpm i
 
-# serve
-mkdocs serve
+# build
+pnpm build
+
+# dev
+pnpm dev
 ```
 
 # License
