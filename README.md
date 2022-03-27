@@ -37,7 +37,7 @@ MIT.
 [![Stargazers repo roster for @XCPCIO/XCPCIO](https://reporoster.com/stars/XCPCIO/XCPCIO)](https://github.com/XCPCIO/XCPCIO/stargazers)
 
 <p align="center">
-    <a href="https://github.com/XCPCIO/XCPCIO-Board#">
+    <a href="https://github.com/XCPCIO/XCPCIO#">
         <img src="https://cdn.jsdelivr.net/gh/Dup4/static/backToTopButton.png" alt="Back to top" height="29"/>
     </a>
 </p>
