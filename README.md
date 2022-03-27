@@ -30,3 +30,14 @@ pnpm dev
 MIT.
 
 [license-image-mit]: https://img.shields.io/badge/license-MIT-blue.svg?labelColor=333333
+
+## :clap:  Our Supporters
+
+### &#8627; Stargazers
+[![Stargazers repo roster for @XCPCIO/XCPCIO](https://reporoster.com/stars/XCPCIO/XCPCIO)](https://github.com/XCPCIO/XCPCIO/stargazers)
+
+<p align="center">
+    <a href="https://github.com/XCPCIO/XCPCIO-Board#">
+        <img src="https://cdn.jsdelivr.net/gh/Dup4/static/backToTopButton.png" alt="Back to top" height="29"/>
+    </a>
+</p>
