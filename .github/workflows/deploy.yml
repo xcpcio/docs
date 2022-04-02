@@ -67,6 +67,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            cd /var/www
-            rm -rf XCPCIO
-            git clone https://github.dup4.com/XCPCIO/XCPCIO.git -b ${{ env.DEPLOY_BRANCH }} --depth=1
+            bash <(curl -s -L https://cdn.jsdelivr.net/gh/Dup4/bash-script-snippet@latest/deploy_gh_pages.sh) -r XCPCIO/XCPCIO -d /var/www -b ${{ env.DEPLOY_BRANCH}}
