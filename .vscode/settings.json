@@ -1,5 +1,7 @@
 {
     "editor.formatOnSave": true,
+    "editor.tabSize": 4,
+    "editor.insertSpaces": true,
     "files.associations": {
         ".remarkrc": "json"
     },
@@ -7,10 +9,12 @@
         "arithmatex",
         "autohide",
         "betterem",
+        "ccpc",
         "ceret",
         "escapeall",
         "fontawesome",
         "hardbreak",
+        "icpc",
         "inlinehilite",
         "linenums",
         "magiclink",
@@ -28,7 +32,9 @@
         "superfences",
         "tasklist",
         "twemoji",
-        "uslugify"
+        "uslugify",
+        "XCPC",
+        "XCPCIO"
     ],
     "yaml.customTags": [
         "!ENV scalar",

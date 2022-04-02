@@ -2,7 +2,7 @@
     "private": true,
     "scripts": {
         "build": "bash build.sh",
-        "dev": "mkdocs serve",
+        "dev": "mkdocs serve -v",
         "lint": "remark ./docs/**/*.md --quiet --frail",
         "lint:fix": "remark ./docs/**/*.md --quiet --frail --output"
     },

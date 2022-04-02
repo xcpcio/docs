@@ -1,13 +1,14 @@
-site_name: XCPCIO
+site_name: XCPC IO
 site_url: https://xcpcio.com
-site_description: Info Site of XCPC
+site_description: |
+  Info Site of XCPC
 
 repo_name: XCPCIO
 repo_url: https://github.com/XCPCIO/XCPCIO
-edit_uri: tree/master/docs/markdown
+edit_uri: tree/master/docs
 
 copyright: |
-  Copyright &copy; 2020 - Present <a href="https://github.com/XCPCIO/XCPCIO"  target="_blank" rel="noopener">XCPCIO</a>
+  Copyright &copy; 2020 - 2022 <a href="https://github.com/XCPCIO/XCPCIO"  target="_blank" rel="noopener">XCPC IO</a>
   #beian
 
 docs_dir: docs
@@ -153,7 +154,6 @@ plugins:
       minify_html: true
   - mkdocs-material-extras:
       enable_mathjax: !ENV [ENABLE_MATHJAX, true]
-  - macros
   - redirects:
       redirect_maps:
         "index.md": "info/calendar.md"
