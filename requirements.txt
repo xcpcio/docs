@@ -3,4 +3,4 @@ mkdocs-material-extras >= 0.0.8
 mkdocs-minify-plugin >= 0.5
 mkdocs-redirects >= 1.0
 mkdocs-git-revision-date-localized-plugin >= 1.0.0
-mkdocs-macros-plugin >= 0.6.4
+mkdocs-macros-plugin >= 0.7.0
