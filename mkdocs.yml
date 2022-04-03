@@ -34,7 +34,7 @@ theme:
     - navigation.tabs
     # - navigation.tabs.sticky
     - navigation.top
-    - navigation.indexes
+    # - navigation.indexes
     - search.highlight
     - search.share
     - search.suggest
