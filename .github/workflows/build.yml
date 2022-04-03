@@ -41,8 +41,7 @@ jobs:
       - name: Install and Build
         env:
           GOOGLE_ANALYTICS_KEY: G-9TCR8GN9EM
-          MIRROR_DOWNLOAD_HOST: ${{ secrets.GHMIRROR_MIRROR_DOWNLOAD_HOST }}
-          UPLOAD_FILE_HOST: ${{ secrets.GHMIRROR_UPLOAD_FILE_HOST }}
+          UPLOAD_FILE_HOST: https://xcpcio.github.io/XCPCIO-upload-file/
           ENABLE_MATHJAX: false
         run: |
           pnpm build
