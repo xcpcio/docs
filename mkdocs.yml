@@ -174,6 +174,7 @@ nav:
               - 南京站: info/icpc/46th/nanjing.md
               - 澳门站: info/icpc/46th/macau.md
               - 昆明站: info/icpc/46th/kunming.md
+              - EC Final: info/icpc/46th/ec.md
           - "2020":
               - Getting Started: info/icpc/2020/index.md
               - 牛客-小米: info/icpc/2020/nowcoder-xiaomi.md
