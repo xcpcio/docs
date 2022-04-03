@@ -41,8 +41,7 @@ jobs:
       - name: Install and Build
         env:
           GOOGLE_ANALYTICS_KEY: G-XE1QMD9EVV
-          MIRROR_DOWNLOAD_HOST: ${{ secrets.MIRROR_DOWNLOAD_HOST }}
-          UPLOAD_FILE_HOST: ${{ secrets.UPLOAD_FILE_HOST }}
+          UPLOAD_FILE_HOST: https://upload-file.xcpcio.com/
           ENABLE_MATHJAX: false
         run: |
           sed -i "s|#beian|${{ secrets.BEIAN_ID }}|" mkdocs.yml
