@@ -154,6 +154,7 @@ plugins:
       minify_html: true
   - mkdocs-material-extras:
       enable_mathjax: !ENV [ENABLE_MATHJAX, true]
+  - macros:
   - redirects:
       redirect_maps:
         "index.md": "info/calendar.md"
