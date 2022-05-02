@@ -2,6 +2,4 @@
 
 - [官方地址][sumatrapdf-official-download-link]
 
---8<--
-links.txt
---8<--
+[sumatrapdf-official-download-link]: https://www.sumatrapdfreader.org/download-free-pdf-viewer.html

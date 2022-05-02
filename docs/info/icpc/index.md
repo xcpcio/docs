@@ -15,6 +15,4 @@
 ??? info "某热心网友提供的参赛信息"
     ![ICPCID](./images/icpcid.png)
 
---8<--
-links.txt
---8<--
+[ICPC]: https://zh.wikipedia.org/wiki/%E5%9B%BD%E9%99%85%E5%A4%A7%E5%AD%A6%E7%94%9F%E7%A8%8B%E5%BA%8F%E8%AE%BE%E8%AE%A1%E7%AB%9E%E8%B5%9B

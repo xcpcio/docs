@@ -48,6 +48,4 @@
 ??? info "软件包内容"
     ![ccpc-pack-content](./images/ccpc-2020-pack-content.png)
 
---8<--
-links.txt
---8<--
+[ccpc-2020-pack-download-link]: http://ccpc.acmclub.cn/CCPC2020Pack.zip

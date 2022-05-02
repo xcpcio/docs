@@ -2,6 +2,4 @@
 
 - [官方地址][intellij-idea-official-download-link]
 
---8<--
-links.txt
---8<--
+[intellij-idea-official-download-link]: https://www.jetbrains.com/idea/download/#section=mac

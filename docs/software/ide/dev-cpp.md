@@ -10,6 +10,4 @@
 -O2 -W -Wall -std=c++11 -DHOME
 ```
 
---8<--
-links.txt
---8<--
+[dev-cpp-official-download-link]: https://sourceforge.net/projects/orwelldevcpp/

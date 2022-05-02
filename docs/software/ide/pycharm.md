@@ -2,6 +2,4 @@
 
 - [官方地址][pycharm-official-download-link]
 
---8<--
-links.txt
---8<--
+[pycharm-official-download-link]: https://www.jetbrains.com/pycharm/download/#section=mac

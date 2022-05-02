@@ -2,6 +2,4 @@
 
 - [官方地址][python-official-download-link]
 
---8<--
-links.txt
---8<--
+[python-official-download-link]: https://www.python.org/downloads/

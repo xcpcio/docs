@@ -4,6 +4,4 @@
 
 - [官网地址][oms-official-download-link]
 
---8<--
-links.txt
---8<--
+[oms-official-download-link]: https://pintia.cn/download-oms-client

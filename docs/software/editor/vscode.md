@@ -2,6 +2,4 @@
 
 - [官方地址][vscode-official-download-link]
 
---8<--
-links.txt
---8<--
+[vscode-official-download-link]: https://code.visualstudio.com/
