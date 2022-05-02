@@ -265,6 +265,7 @@ nav:
           - PyCharm: software/ide/pycharm.md
           - IntelliJ IDEA: software/ide/intellij-idea.md
           - Eclipse: software/ide/eclipse.md
+          - Code::Blocks: software/ide/codeblocks.md
       - 其它:
           - Win RAR: software/other/winrar.md
           - SumatraPDF: software/other/sumatrapdf.md
