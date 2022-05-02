@@ -3,7 +3,6 @@
 ## 下载地址
 
 - [官方下载地址][ccpc-2020-pack-download-link]
-- [镜像下载地址]({{ var.mirror_download_host }}CCPC2020Pack.zip)
 
 ??? info "CCPC2020环境说明"
     各参赛队伍：
