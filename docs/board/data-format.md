@@ -51,7 +51,7 @@ Board 的配置分为三个文件：
 ```
 
 - `timestamp` 以 s 为单位的相对时间：
-  - 如果是 Domjudge 的榜单，它的时间戳是以 s 为单位的，但是在榜单中是以 min 为单位的。所以可能需要转换一下，比如 1min20s(timestamp=80) 应该转换成 1min(timestamp=60)。
+  - 如果是 Domjudge 的榜单，它的时间戳是以 s 为单位的，但是在榜单中是以 min 为单位的。所以可能需要转换一下，比如 1min20s(timestamp=80) 应该转换成 1min(timestamp=60)。
   - 对于其它需要 s 为单位的榜单，虽然前段展示的是以 min 为单位的，但是实际的排名计算是以 s 为单位的。
 - `status` 目前只支持三种状态：
   - `correct`
