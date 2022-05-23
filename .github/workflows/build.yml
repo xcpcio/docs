@@ -41,7 +41,7 @@ jobs:
       - name: Install and Build
         env:
           GOOGLE_ANALYTICS_KEY: G-9TCR8GN9EM
-          UPLOAD_FILE_HOST: https://xcpcio.github.io/XCPCIO-upload-file/
+          UPLOAD_FILE_HOST: https://xcpcio.github.io/upload-file/
           ENABLE_MATHJAX: false
         run: |
           pnpm build
