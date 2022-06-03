@@ -259,6 +259,7 @@ nav:
       - 编译器:
           - Python: software/compiler/python.md
           - JDK8: software/compiler/jdk8.md
+          - GCC: software/compiler/gcc.md
       - 编辑器:
           - VS Code: software/editor/vscode.md
       - 集成开发环境:
