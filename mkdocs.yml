@@ -212,6 +212,14 @@ nav:
               - 亚洲区决赛: info/icpc/2015/ecfinal.md
       - CCPC:
           - Getting Started: info/ccpc/index.md
+          - "8th":
+              - Getting Started: info/ccpc/8th/index.md
+              - 网络选拔赛: info/ccpc/8th/index.md
+              - 女生赛: info/ccpc/8th/girl.md
+              - 广州站: info/ccpc/8th/guangzhou.md
+              - 廊坊站: info/ccpc/8th/langfang.md
+              - 威海站: info/ccpc/8th/weihai.md
+              - 桂林站: info/ccpc/8th/guilin.md
           - "7th":
               - Getting Started: info/ccpc/7th/index.md
               - 网络选拔赛: info/ccpc/7th/preliminary-contest.md
