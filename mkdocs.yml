@@ -165,6 +165,17 @@ nav:
       - Calendar: info/calendar.md
       - ICPC:
           - Getting Started: info/icpc/index.md
+          - "47th":
+              - Getting Started: info/icpc/47th/index.md
+              - 网络预选赛: info/icpc/47th/online.md
+              - 沈阳: info/icpc/47th/shenyang.md
+              - 西安: info/icpc/47th/xian.md
+              - 合肥: info/icpc/47th/hefei.md
+              - 济南: info/icpc/47th/jinan.md
+              - 杭州: info/icpc/47th/hangzhou.md
+              - 南京: info/icpc/47th/nanjing.md
+              - 香港: info/icpc/47th/hongkong.md
+              - EC Final: info/icpc/47th/ec.md
           - "46th":
               - Getting Started: info/icpc/46th/index.md
               - 网络预选赛: info/icpc/46th/online.md
