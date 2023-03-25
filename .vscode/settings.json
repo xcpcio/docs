@@ -26,6 +26,7 @@
         "mkdocs",
         "nbsp",
         "noopener",
+        "noreply",
         "pnpm",
         "progressbar",
         "pymdownx",
