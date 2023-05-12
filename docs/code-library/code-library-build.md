@@ -7,9 +7,9 @@
 - 他们使用了 GitHub Actions 配合若干脚本，实现了自动化构建。
 - 源文件采用 Markdown 编写，在本地编写源码文件, 实时渲染所需的门槛非常低，只要能够渲染 Markdown 就可以。
 
-使用指北(以下教程基于 Fork 我们的 [repo][template-markdown-ecnu-f0re1gners-repo], 如果你 Fork 的是原仓库，可能需要改动 `main.yml`)：
+使用指北(以下教程基于 Fork 此 [repo][template-markdown-ecnu-f0re1gners-repo], 如果你 Fork 的是原仓库，可能需要改动 `main.yml`)：
 
-- Fork 我们的 [repo][template-markdown-ecnu-f0re1gners-repo]。
+- Fork 此 [repo][template-markdown-ecnu-f0re1gners-repo]。
 - 修改源码文件，如果要增加新的模块，请按照 `*-*.md` 格式进行命名，第一个 `*` 表示序号。
 - 如果要修改封面，请修改 `pandoc/algo.latex` 文件，如果是简单的修改队名和校名，可以快速定位到 378 行修改以下内容：
   ```plain
@@ -20,14 +20,18 @@
 - 提交源码。
 - GitHub Actions 会自动构建，并且会将构建产物 `template.pdf` 推送到 gh-pages 分支下。
 
-???+ danger "开启 Actions"
+???+ danger "GitHub Actions 注意事项"
     需要注意的是，如果你 fork 了一个配置了 Github Actions 的仓库，你 fork 的仓库并不会自动触发 Github Actions，需要点击 Actions 页面进行开启。
 
     ![](./images/enable-actions.png)
 
+    还需要注意给 Actions write 权限。
+
+    ![](./images/actions-permissions.png)
+
 ## LaTeX-ECNU-F0RE1GNERS
 
-如果你想用 LaTeX 编写你的模版，我们参考ECNU F0RE1GNERS template wf-tex 分支下的代码，编写了 GitHub Actions workflow 文件，能够进行自动化构建。
+如果你想用 LaTeX 编写你的模版，我们参考 ECNU F0RE1GNERS template wf-tex 分支下的代码，编写了 GitHub Actions workflow 文件，能够进行自动化构建。
 
 虽然我们觉得这种方案通用性不是很高，因为如果你能够熟练使用 LaTeX 的话，那么你在本地肯定能够编译 LaTeX。如果你用了别的 package，或者别的 font，这个 `workflow` 文件也不一定适用了。
 
