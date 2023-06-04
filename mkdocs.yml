@@ -129,7 +129,6 @@ markdown_extensions:
   - pymdownx.striphtml:
   - pymdownx.snippets:
       check_paths: true
-      base_path:
   - pymdownx.saneheaders:
 
 extra:
