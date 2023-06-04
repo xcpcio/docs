@@ -4,5 +4,3 @@ mkdocs-minify-plugin >= 0.5
 mkdocs-redirects >= 1.0
 mkdocs-git-revision-date-localized-plugin >= 1.0.0
 mkdocs-macros-plugin >= 0.7.0
-
-pymdown-extensions==10.0
