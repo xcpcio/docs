@@ -8,6 +8,8 @@ on:
       - main
 
 env:
+  python_version: "3.10"
+  node_version: "18.x"
   DEPLOY_BRANCH: deploy-pages
 
 jobs:
@@ -22,7 +24,7 @@ jobs:
       - name: Set up Python 3
         uses: actions/setup-python@v4
         with:
-          python-version: "3.10"
+          python-version: ${{ env.python_version }}
 
       - name: Install Python dependencies
         run: |
@@ -33,9 +35,13 @@ jobs:
       - name: Set up Node.js
         uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: ${{ env.node_version }}
 
-      - name: Install and Build
+      - name: Install Node dependencies
+        run: |
+          pnpm i
+
+      - name: Build
         env:
           GOOGLE_ANALYTICS_KEY: G-XE1QMD9EVV
           UPLOAD_FILE_HOST: https://upload-file.xcpcio.com/
@@ -63,4 +69,4 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            bash <(curl -s -L https://raw-github.dup4.com/Dup4/bash-script-snippet/main/deploy_gh_pages.sh) -r XCPCIO/XCPCIO -d /var/docker-data/nginx/www/xcpcio -b ${{ env.DEPLOY_BRANCH}}
+            bash <(curl -s -L https://raw-github.dup4.com/Dup4/bash-script-snippet/main/deploy_gh_pages.sh) -r XCPCIO/XCPCIO -d /var/docker-data/nginx/www/xcpcio -b ${{ env.DEPLOY_BRANCH }}
