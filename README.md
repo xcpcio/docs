@@ -2,6 +2,7 @@
 
 [![Build](https://github.com/XCPCIO/XCPCIO/actions/workflows/build.yml/badge.svg)](https://github.com/XCPCIO/XCPCIO/actions/workflows/build.yml)
 [![Lint](https://github.com/XCPCIO/XCPCIO/actions/workflows/lint.yml/badge.svg)](https://github.com/XCPCIO/XCPCIO/actions/workflows/lint.yml)
+[![Deploy](https://github.com/XCPCIO/XCPCIO/actions/workflows/deploy.yml/badge.svg)](https://github.com/XCPCIO/XCPCIO/actions/workflows/deploy.yml)
 [![License][license-image-mit]](https://mit-license.org/)
 [![Slack](https://img.shields.io/badge/slack-@xcpcio-blue.svg?logo=slack)](https://xcpcio.slack.com)
 
@@ -25,10 +26,16 @@ pnpm build
 pnpm dev
 ```
 
-# License
+## URLs
 
-MIT.
+* <https://xcpcio.com>
+* <https://xcpcio.github.io/XCPCIO/>
 
+## License
+
+[MIT](./LICENSE) License © 2020 [XCPCIO][xcpcio]
+
+[xcpcio]: https://github.com/XCPCIO
 [license-image-mit]: https://img.shields.io/badge/license-MIT-blue.svg?labelColor=333333
 
 ## :clap:  Our Supporters
