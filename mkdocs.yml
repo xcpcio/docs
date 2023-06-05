@@ -265,7 +265,7 @@ nav:
               - 浙江省赛: info/provincial-contest/2017/zjcpc.md
   - BOARD:
       - Getting Started: board/index.md
-      - 数据格式: board/data-format.md
+      - Data Format: board/data-format.md
   - RATING:
       - Getting Started: rating/index.md
   - CODE LIBRARY:
