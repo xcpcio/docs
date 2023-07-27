@@ -1,15 +1,15 @@
 # XCPC IO
 
-[![Build](https://github.com/XCPCIO/XCPCIO/actions/workflows/build.yml/badge.svg)](https://github.com/XCPCIO/XCPCIO/actions/workflows/build.yml)
-[![Lint](https://github.com/XCPCIO/XCPCIO/actions/workflows/lint.yml/badge.svg)](https://github.com/XCPCIO/XCPCIO/actions/workflows/lint.yml)
-[![Deploy](https://github.com/XCPCIO/XCPCIO/actions/workflows/deploy.yml/badge.svg)](https://github.com/XCPCIO/XCPCIO/actions/workflows/deploy.yml)
+[![Build](https://github.com/xcpcio/docs/actions/workflows/build.yml/badge.svg)](https://github.com/xcpcio/docs/actions/workflows/build.yml)
+[![Lint](https://github.com/xcpcio/docs/actions/workflows/lint.yml/badge.svg)](https://github.com/xcpcio/docs/actions/workflows/lint.yml)
+[![Deploy](https://github.com/xcpcio/docs/actions/workflows/deploy.yml/badge.svg)](https://github.com/xcpcio/docs/actions/workflows/deploy.yml)
 [![License][license-image-mit]](https://mit-license.org/)
 [![Slack](https://img.shields.io/badge/slack-@xcpcio-blue.svg?logo=slack)](https://xcpcio.slack.com)
 
 ## Develop
 
 ```bash
-git clone https://github.com/XCPCIO/XCPCIO.git -b main --depth=1
+git clone https://github.com/xcpcio/docs.git -b main --depth=1
 
 cd XCPCIO
 
@@ -29,7 +29,6 @@ pnpm dev
 ## URLs
 
 * <https://xcpcio.com>
-* <https://xcpcio.github.io/XCPCIO/>
 
 ## License
 
@@ -41,10 +40,10 @@ pnpm dev
 ## :clap:  Our Supporters
 
 ### &#8627; Stargazers
-[![Stargazers repo roster for @XCPCIO/XCPCIO](https://reporoster.com/stars/XCPCIO/XCPCIO)](https://github.com/XCPCIO/XCPCIO/stargazers)
+[![Stargazers repo roster for @xcpcio/docs](https://reporoster.com/stars/xcpcio/docs)](https://github.com/xcpcio/docs/stargazers)
 
 <p align="center">
-    <a href="https://github.com/XCPCIO/XCPCIO#">
+    <a href="https://github.com/xcpcio/docs#">
         <img src="https://cdn.jsdelivr.net/gh/Dup4/static/backToTopButton.png" alt="Back to top" height="29"/>
     </a>
 </p>
