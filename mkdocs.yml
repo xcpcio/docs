@@ -164,6 +164,8 @@ nav:
       - Calendar: info/calendar.md
       - ICPC:
           - Getting Started: info/icpc/index.md
+          - "48th":
+              - Getting Started: info/icpc/48th/index.md
           - "47th":
               - Getting Started: info/icpc/47th/index.md
               - 网络预选赛: info/icpc/47th/online.md
