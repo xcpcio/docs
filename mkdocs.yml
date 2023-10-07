@@ -164,6 +164,8 @@ nav:
       - Calendar: info/calendar.md
       - ICPC:
           - Getting Started: info/icpc/index.md
+          - "48th":
+              - Getting Started: info/icpc/48th/index.md
           - "47th":
               - Getting Started: info/icpc/47th/index.md
               - 网络预选赛: info/icpc/47th/online.md
@@ -211,6 +213,8 @@ nav:
               - 亚洲区决赛: info/icpc/2015/ecfinal.md
       - CCPC:
           - Getting Started: info/ccpc/index.md
+          - "9th":
+              - Getting Started: info/ccpc/9th/index.md
           - "8th":
               - Getting Started: info/ccpc/8th/index.md
               - 网络选拔赛: info/ccpc/8th/preliminary-contest.md

@@ -13,7 +13,7 @@ git clone https://github.com/xcpcio/docs.git -b main --depth=1
 
 cd XCPCIO
 
-# insall mkdocs-material and plugins
+# install mkdocs-material and plugins
 pip3 install -U -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
 
 # install node deps
