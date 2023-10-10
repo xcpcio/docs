@@ -36,5 +36,5 @@
 
 ## Contact us
 
-* <https://github.com/XCPCIO/board/issues>
+* <https://github.com/xcpcio/xcpcio/issues>
 * <lyuzhi.pan@gmail.com>

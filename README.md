@@ -32,9 +32,9 @@ pnpm dev
 
 ## License
 
-[MIT](./LICENSE) License © 2020 [XCPCIO][xcpcio]
+[MIT](./LICENSE) License © 2020 - PRESENT [XCPCIO][xcpcio]
 
-[xcpcio]: https://github.com/XCPCIO
+[xcpcio]: https://github.com/xcpcio
 [license-image-mit]: https://img.shields.io/badge/license-MIT-blue.svg?labelColor=333333
 
 ## :clap:  Our Supporters
