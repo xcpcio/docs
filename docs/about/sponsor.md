@@ -22,7 +22,7 @@
 
 如果想投喂我们但是又无法通过 GitHub Sponsor 渠道的朋友们，可以通过支付宝投喂我们，可以备注一下 XCPCIO 和您的 GitHub 账号，我们会在 [项目主页](xcpcio-git) 的 README 中进行感谢。
 
-![Alipay](./image/alipay.png)
+![Alipay](./image/alipay.png){ width=360px }
 
 ## Contact us
 
