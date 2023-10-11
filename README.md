@@ -1,4 +1,4 @@
-# XCPC IO
+# xcpcio/docs
 
 [![Build](https://github.com/xcpcio/docs/actions/workflows/build.yml/badge.svg)](https://github.com/xcpcio/docs/actions/workflows/build.yml)
 [![Lint](https://github.com/xcpcio/docs/actions/workflows/lint.yml/badge.svg)](https://github.com/xcpcio/docs/actions/workflows/lint.yml)
