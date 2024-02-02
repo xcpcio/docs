@@ -11,6 +11,7 @@ env:
   python_version: "3.10"
   node_version: "18.x"
   DEPLOY_BRANCH: deploy-pages
+  deploy_script_version: "v0.0.4"
 
 jobs:
   deploy:
@@ -69,4 +70,7 @@ jobs:
           key: ${{ secrets.SSH_PRIVATE_KEY }}
           port: ${{ secrets.SSH_PORT }}
           script: |
-            bash <(curl -s -L https://raw-github.dup4.com/Dup4/bash-script-snippet/main/deploy_gh_pages.sh) -r xcpcio/docs -d /var/docker-data/nginx/www/xcpcio -b ${{ env.DEPLOY_BRANCH }}
+            bash <(curl -s -L https://raw.github.com/Dup4/bash-script-snippet/${{ env.deploy_script_version }}/deploy_gh_pages.sh) \
+            -r xcpcio/docs \
+            -d /var/docker-data/nginx/www/xcpcio \
+            -b ${{ env.DEPLOY_BRANCH }}
