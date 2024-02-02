@@ -1,15 +1,19 @@
-site_name: XCPC IO
+site_name: XCPCIO
 site_url: https://xcpcio.com
 site_description: |
   Info Site of XCPC
 
 repo_name: XCPCIO
-repo_url: https://github.com/XCPCIO/XCPCIO
+repo_url: https://github.com/xcpcio/xcpcio
 edit_uri: tree/master/docs
 
 copyright: |
-  Copyright &copy; 2020 - 2022 <a href="https://github.com/XCPCIO/XCPCIO"  target="_blank" rel="noopener">XCPC IO</a>
+  Copyright &copy; 2020 - 2024
+  <a href="https://github.com/xcpcio/xcpcio" target="_blank" rel="noopener">XCPCIO</a>
   #beian
+  &nbsp &nbsp
+  <a href="https://chatgptzhibei.com/how-to-upgrade-gpt4/" target="_blank" rel="noopener">如何升级 GPT4</a>
+  <br/>
 
 docs_dir: docs
 

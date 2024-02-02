@@ -1,3 +1,9 @@
 # Competition Rating
 
-[Go to Rating :fontawesome-solid-paper-plane:](https://rating.xcpcio.com){ .md-button }
+<center>
+
+[Go to Rating :fontawesome-solid-paper-plane:][rating]{ .md-button }
+
+</center>
+
+[rating]: https://board.xcpcio.com/rating
