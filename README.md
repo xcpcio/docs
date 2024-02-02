@@ -11,7 +11,7 @@
 ```bash
 git clone https://github.com/xcpcio/docs.git -b main --depth=1
 
-cd XCPCIO
+cd docs
 
 # install mkdocs-material and plugins
 pip3 install -U -r requirements.txt -i https://pypi.tuna.tsinghua.edu.cn/simple/
@@ -34,16 +34,13 @@ pnpm dev
 
 [MIT](./LICENSE) License © 2020 - PRESENT [XCPCIO][xcpcio]
 
-[xcpcio]: https://github.com/xcpcio
-[license-image-mit]: https://img.shields.io/badge/license-MIT-blue.svg?labelColor=333333
-
-## :clap:  Our Supporters
-
-### &#8627; Stargazers
-[![Stargazers repo roster for @xcpcio/docs](https://reporoster.com/stars/xcpcio/docs)](https://github.com/xcpcio/docs/stargazers)
+## Sponsors
 
 <p align="center">
-    <a href="https://github.com/xcpcio/docs#">
-        <img src="https://cdn.jsdelivr.net/gh/Dup4/static/backToTopButton.png" alt="Back to top" height="29"/>
-    </a>
+  <a href="https://github.com/sponsors/Dup4">
+    <img src='https://cdn.jsdelivr.net/gh/Dup4/static/sponsors-output/sponsors.svg' alt="Logos from Sponsors" />
+  </a>
 </p>
+
+[xcpcio]: https://github.com/xcpcio
+[license-image-mit]: https://img.shields.io/badge/license-MIT-blue.svg?labelColor=333333
