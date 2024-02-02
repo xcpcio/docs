@@ -30,10 +30,6 @@ pnpm dev
 
 * <https://xcpcio.com>
 
-## License
-
-[MIT](./LICENSE) License © 2020 - PRESENT [XCPCIO][xcpcio]
-
 ## Sponsors
 
 <p align="center">
@@ -41,6 +37,10 @@ pnpm dev
     <img src='https://cdn.jsdelivr.net/gh/Dup4/static/sponsors-output/sponsors.svg' alt="Logos from Sponsors" />
   </a>
 </p>
+
+## License
+
+[MIT](./LICENSE) License © 2020 - PRESENT [XCPCIO][xcpcio]
 
 [xcpcio]: https://github.com/xcpcio
 [license-image-mit]: https://img.shields.io/badge/license-MIT-blue.svg?labelColor=333333
