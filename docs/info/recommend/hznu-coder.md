@@ -9,6 +9,7 @@
 
 也欢迎大家踊跃投稿，也可以推荐其他人投稿。
 
+* 投稿地址：605738695@qq.com 收件人：Tangent
 * 公众号创建目的：https://mp.weixin.qq.com/s/PkHbAPeeP7yBlhfsvvEZRw
 * 学长回忆：
     * 第一期：https://mp.weixin.qq.com/s/Aq3KXyodTkam8-M_vkoEJA
