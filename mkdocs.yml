@@ -160,12 +160,15 @@ plugins:
   - macros:
   - redirects:
       redirect_maps:
-        "index.md": "info/calendar.md"
+        "index.md": "info/index.md"
 
 nav:
   - INFORMATION:
+      - Getting Started: info/index.md
       - News: info/news.md
       - Calendar: info/calendar.md
+      - Recommend:
+        - 杭师 Coder: info/recommend/hznu-coder.md
       - ICPC:
           - Getting Started: info/icpc/index.md
           - "48th":
