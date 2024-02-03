@@ -20,7 +20,7 @@ XCPCIO 致力于通过优质的榜单服务和信息集合，为 XCPC 系列竞�
 
 <p align="center">
   <a href="https://github.com/sponsors/Dup4">
-    <img src='https://cdn.jsdelivr.net/gh/Dup4/static/sponsors-output/sponsors.svg' alt="Logos from Sponsors" />
+    <img src='https://raw-github.dup4.com/Dup4/static/main/sponsors-output/sponsors.png' alt="Logos from Sponsors" />
   </a>
 </p>
 
