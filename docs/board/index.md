@@ -37,4 +37,4 @@
 ## Contact us
 
 * <https://github.com/xcpcio/xcpcio/issues>
-* <lyuzhi.pan@gmail.com>
+* <xcpcio@dup4.com>

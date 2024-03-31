@@ -14,9 +14,13 @@
 
 XCPCIO 致力于通过优质的榜单服务和信息集合，为 XCPC 系列竞赛的参赛者和观众提供一个全面、便捷和丰富的竞赛信息平台。
 
+## Jobs
+
+* [乾象投资](./info/jobs/metabit-trading/index.md)
+
 ## Sponsors
 
-* [杭师 Coder](./recommend/hznu-coder.md)
+* [杭师 Coder](./info/sponsors/hznu-coder/index.md)
 
 <p align="center">
   <a href="https://github.com/sponsors/Dup4">

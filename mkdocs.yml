@@ -139,8 +139,10 @@ extra:
     provider: google
     property: !ENV GOOGLE_ANALYTICS_KEY
   social:
+    - icon: fontawesome/brands/twitter
+      link: https://twitter.com/panlyuzhi
     - icon: fontawesome/brands/github
-      link: https://github.com/XCPCIO/XCPCIO
+      link: https://github.com/xcpcio/xcpcio
   var:
     mirror_download_host: !ENV [MIRROR_DOWNLOAD_HOST, "./"]
     upload_file_host: !ENV [UPLOAD_FILE_HOST, "./"]
@@ -158,15 +160,18 @@ plugins:
   - macros:
   - redirects:
       redirect_maps:
-        "index.md": "info/index.md"
+        # "index.md": "info/index.md"
 
 nav:
   - INFORMATION:
-      - Getting Started: info/index.md
-      - News: info/news.md
-      - Calendar: info/calendar.md
-      - Recommend:
-        - 杭师 Coder: info/recommend/hznu-coder.md
+      - Getting Started: index.md
+      # - News: info/news.md
+      # - Calendar: info/calendar.md
+      - Jobs:
+          - MetaBit Trading: info/jobs/metabit-trading/index.md
+      - Sponsors:
+          - Getting Started: info/sponsors/index.md
+          - 杭师 Coder: info/sponsors/hznu-coder/index.md
       - ICPC:
           - Getting Started: info/icpc/index.md
           - "48th":
@@ -303,9 +308,3 @@ nav:
           - SumatraPDF: software/other/sumatrapdf.md
       - OMS监考客户端: software/oms.md
       - CCPC竞赛软件包: software/ccpc-pack.md
-  - ABOUT:
-      - 关于本项目: about/index.md
-      - 如何参与: about/htc.md
-      - 格式手册: about/format.md
-      - F.A.Q.: about/faq.md
-      - Sponsor: about/sponsor.md
