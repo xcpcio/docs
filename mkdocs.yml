@@ -160,7 +160,7 @@ plugins:
   - macros:
   - redirects:
       redirect_maps:
-        "info/index.md": "index.md"
+        # "info/index.md": "index.md"
 
 nav:
   - INFORMATION:
