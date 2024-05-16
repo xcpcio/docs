@@ -255,6 +255,8 @@ nav:
               - 哈尔滨: info/ccpc/5th/harbin.md
               - 总决赛: info/ccpc/5th/final.md
       - Provincial Contest:
+          - "2024":
+              - 江苏省赛: info/provincial-contest/2024/jiangsu.md
           - "2023":
               - 四川省赛: info/provincial-contest/2023/sccpc.md
           - "2022":
