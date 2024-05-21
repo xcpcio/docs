@@ -18,8 +18,8 @@
 
 * 可以直接扫描图中的二维码进行投递
 * 也可以点击 [链接](https://app.mokahr.com/apply/metabit-trading/26108#/jobs) 进行投递，注意投递简历的时候需要填写我的内推码：NTA2yCq
-* 也可以将简历发给我，帮您投递，顺便可以帮您润色一下简历
-* 成功入职后，内推奖励平分
+* 也可以将简历发给我，帮您投递，如果您有需要的话，也可以帮您润色一下简历
+* 成功入职后，**内推奖励平分**
 * 联系方式：
     * QQ/WX: [Duplicate4](/images/wechat.jpg)
     * Email: lyuzhi.pan@metabit-trading.com
