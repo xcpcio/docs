@@ -174,6 +174,11 @@ nav:
           - 杭师 Coder: info/sponsors/hznu-coder/index.md
       - ICPC:
           - Getting Started: info/icpc/index.md
+          - "49th":
+              - Getting Started: info/icpc/49th/index.md
+              - 武汉（邀请赛）: info/icpc/49th/wuhan.md
+              - 西安（邀请赛）: info/icpc/49th/xian.md
+              - 昆明（邀请赛）: info/icpc/49th/kunming.md
           - "48th":
               - Getting Started: info/icpc/48th/index.md
           - "47th":
