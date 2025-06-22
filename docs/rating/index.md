@@ -1,9 +1,9 @@
 # Competition Rating
 
-<center>
+<div class="xcpcio-center" markdown>
 
 [Go to Rating :fontawesome-solid-paper-plane:][rating]{ .md-button }
 
-</center>
+</div>
 
 [rating]: https://board.xcpcio.com/rating

@@ -1,20 +1,10 @@
 # Board
 
-<style type="text/css">
-
-.center {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-}
-
-</style>
-
-<center>
+<div class="xcpcio-center" markdown>
 
 [Go to Board :fontawesome-solid-paper-plane:](https://board.xcpcio.com){ .md-button }
 
-</center>
+</div>
 
 我们提供榜单托管服务以及比赛期间的榜单同步服务。
 
@@ -24,7 +14,9 @@
 
 * 无法拿到正确的 submissions，只能通过 scoreboard 中的数据 fake 出来
 
-我们更建议你们使用 [domjudge-utility/cmd/dump-to-xcpcio](https://github.com/XCPCIO/domjudge-utility/tree/main/cmd/dump-to-xcpcio)，在比赛中，将 DOMjudge 的相关数据推送给我们，如果采用这种方式，需要提前 [联系我们](#contact-us) 申请 token，并且我们强烈建议你们在热身赛时进行榜单同步，观测该脚本对服务器的影响，以防止正式赛时出现问题，该方案有如下优点：
+我们更建议你们使用 [domjudge-utility/cmd/dump-to-xcpcio][dump-to-xcpcio]，在比赛中，
+将 DOMjudge 的相关数据推送给我们，如果采用这种方式，需要提前 [联系我们](#contact-us) 申请 token，
+并且我们强烈建议你们在热身赛时进行榜单同步，观测该脚本对服务器的影响，以防止正式赛时出现问题，该方案有如下优点：
 
 * 无需公网 IP，办赛方可以不需要将 DOMjudge 的榜单防止在公网的环境中，只需要有访问公网的能力，将 DOMjudge 的部分数据推送到 xcpcio 的服务器中即可。
 * 可以获取更加精确的数据，比如 submissions 不再需要 fake。
@@ -36,5 +28,7 @@
 
 ## Contact us
 
-* <https://github.com/xcpcio/xcpcio/issues>
 * <xcpcio@dup4.com>
+* <https://github.com/xcpcio/xcpcio/issues>
+
+[dump-to-xcpcio]: https://github.com/XCPCIO/domjudge-utility/tree/main/cmd/dump-to-xcpcio

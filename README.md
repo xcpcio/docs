@@ -32,7 +32,9 @@ pnpm dev
 
 ## Sponsors
 
+<!-- markdownlint-disable-next-line MD033 -->
 <p align="center">
+  <!-- markdownlint-disable-next-line MD033 -->
   <a href="https://github.com/sponsors/Dup4">
     <img src='https://cdn.jsdelivr.net/gh/Dup4/static/sponsors-output/sponsors.svg' alt="Logos from Sponsors" />
   </a>
